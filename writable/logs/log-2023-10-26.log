@@ -1,0 +1,1631 @@
+INFO - 2023-10-26 02:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 02:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 02:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 02:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 02:48:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 02:48:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-26 02:48:29 --> Trying to access array offset on value of type null
+in APPPATH\Views\profilepermission.php on line 134.
+ 1 APPPATH\Views\profilepermission.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\CI4\\CI4\\app\\Views\\profilepermission.php', 134)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\CI4\\CI4\\app\\Views\\profilepermission.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('profilepermission', [], true)
+ 5 APPPATH\Controllers\ProfilePermission.php(32): view('profilepermission', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-26 02:57:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-26 02:57:25 --> Trying to access array offset on value of type null
+in APPPATH\Views\profilepermission.php on line 134.
+ 1 APPPATH\Views\profilepermission.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\CI4\\CI4\\app\\Views\\profilepermission.php', 134)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\CI4\\CI4\\app\\Views\\profilepermission.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('profilepermission', [], true)
+ 5 APPPATH\Controllers\ProfilePermission.php(32): view('profilepermission', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-26 02:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-26 02:57:27 --> Trying to access array offset on value of type null
+in APPPATH\Views\profilepermission.php on line 134.
+ 1 APPPATH\Views\profilepermission.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\CI4\\CI4\\app\\Views\\profilepermission.php', 134)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\CI4\\CI4\\app\\Views\\profilepermission.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('profilepermission', [], true)
+ 5 APPPATH\Controllers\ProfilePermission.php(32): view('profilepermission', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-26 03:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-26 03:34:12 --> Undefined variable $profiles
+in APPPATH\Views\profilepermission.php on line 90.
+ 1 APPPATH\Views\profilepermission.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profiles', 'C:\\xampp\\htdocs\\CI4\\CI4\\app\\Views\\profilepermission.php', 90)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\CI4\\CI4\\app\\Views\\profilepermission.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('profilepermission', [], true)
+ 5 APPPATH\Controllers\ProfilePermission.php(12): view('profilepermission')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-26 03:56:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-26 03:56:08 --> Undefined variable $profiles
+in APPPATH\Views\profilepermission.php on line 90.
+ 1 APPPATH\Views\profilepermission.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profiles', 'C:\\xampp\\htdocs\\CI4\\CI4\\app\\Views\\profilepermission.php', 90)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\CI4\\CI4\\app\\Views\\profilepermission.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('profilepermission', [], true)
+ 5 APPPATH\Controllers\ProfilePermission.php(12): view('profilepermission')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-26 04:02:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-26 04:02:05 --> Undefined variable $modules
+in APPPATH\Views\profilepermission.php on line 123.
+ 1 APPPATH\Views\profilepermission.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $modules', 'C:\\xampp\\htdocs\\CI4\\CI4\\app\\Views\\profilepermission.php', 123)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\CI4\\CI4\\app\\Views\\profilepermission.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('profilepermission', [], true)
+ 5 APPPATH\Controllers\ProfilePermission.php(12): view('profilepermission')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-26 04:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 04:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 04:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 04:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 04:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 04:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 04:45:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 04:45:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 04:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 05:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 05:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 06:06:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 06:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 06:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 06:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 06:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 06:55:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 06:55:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 06:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 07:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 07:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 07:05:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 07:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 07:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 07:17:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 07:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 07:19:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 07:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 07:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 07:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 07:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 07:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 07:30:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 07:32:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 07:38:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 07:38:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 07:38:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 07:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 07:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 07:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 07:48:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:01:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:01:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:01:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:08:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:08:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:10:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:10:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:10:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:19:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:19:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:21:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:31:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:37:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:38:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:40:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-10-26 08:43:26 --> Permissions result: Array
+(
+    [profiledashboard_id] => 1
+    [profile_id] => 1
+    [add_dashboard] => 1
+    [view_dashboard] => 1
+    [edit_dashboard] => 1
+    [delete_dashbaord] => 1
+)
+
+DEBUG - 2023-10-26 08:43:26 --> Permissions result: Array
+(
+    [profiledashboard_id] => 1
+    [profile_id] => 1
+    [add_dashboard] => 1
+    [view_dashboard] => 1
+    [edit_dashboard] => 1
+    [delete_dashbaord] => 1
+)
+
+DEBUG - 2023-10-26 08:43:39 --> Permissions result: Array
+(
+    [profiledashboard_id] => 2
+    [profile_id] => 2
+    [add_dashboard] => 1
+    [view_dashboard] => 1
+    [edit_dashboard] => 1
+    [delete_dashbaord] => 1
+)
+
+DEBUG - 2023-10-26 08:43:39 --> Permissions result: Array
+(
+    [profiledashboard_id] => 2
+    [profile_id] => 2
+    [add_dashboard] => 1
+    [view_dashboard] => 1
+    [edit_dashboard] => 1
+    [delete_dashbaord] => 1
+)
+
+INFO - 2023-10-26 08:45:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:47:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:49:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 08:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-26 08:51:34 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 28.
+ 1 APPPATH\Controllers\ProfilePermission.php(24): App\Models\ProfileModel->getPermissions('1', 'profiledashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1', 'profiledashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 08:51:34 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 28.
+ 1 APPPATH\Controllers\ProfilePermission.php(24): App\Models\ProfileModel->getPermissions('1', 'profilelotno')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1', 'profilelotno')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 08:51:51 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 28.
+ 1 APPPATH\Controllers\ProfilePermission.php(24): App\Models\ProfileModel->getPermissions('3', 'profilelotno')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('3', 'profilelotno')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 08:51:51 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 28.
+ 1 APPPATH\Controllers\ProfilePermission.php(24): App\Models\ProfileModel->getPermissions('3', 'profiledashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('3', 'profiledashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-26 08:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-26 08:52:49 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 28.
+ 1 APPPATH\Controllers\ProfilePermission.php(25): App\Models\ProfileModel->getPermissions('1', 'profiledashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1', 'profiledashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 08:52:49 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 28.
+ 1 APPPATH\Controllers\ProfilePermission.php(25): App\Models\ProfileModel->getPermissions('1', 'profilelotno')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1', 'profilelotno')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 08:54:05 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 28.
+ 1 APPPATH\Controllers\ProfilePermission.php(25): App\Models\ProfileModel->getPermissions('2', 'profilelotno')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2', 'profilelotno')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 08:54:05 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 28.
+ 1 APPPATH\Controllers\ProfilePermission.php(25): App\Models\ProfileModel->getPermissions('2', 'profiledashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2', 'profiledashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-26 08:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-26 08:59:34 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 28.
+ 1 APPPATH\Controllers\ProfilePermission.php(25): App\Models\ProfileModel->getPermissions('1', 'profiledashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1', 'profiledashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 08:59:34 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 28.
+ 1 APPPATH\Controllers\ProfilePermission.php(25): App\Models\ProfileModel->getPermissions('1', 'profilelotno')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1', 'profilelotno')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 08:59:37 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 28.
+ 1 APPPATH\Controllers\ProfilePermission.php(25): App\Models\ProfileModel->getPermissions('3', 'profiledashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('3', 'profiledashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 08:59:37 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 28.
+ 1 APPPATH\Controllers\ProfilePermission.php(25): App\Models\ProfileModel->getPermissions('3', 'profilelotno')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('3', 'profilelotno')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 09:00:00 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 28.
+ 1 APPPATH\Controllers\ProfilePermission.php(25): App\Models\ProfileModel->getPermissions('1', 'profilelotno')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1', 'profilelotno')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 09:00:00 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 28.
+ 1 APPPATH\Controllers\ProfilePermission.php(25): App\Models\ProfileModel->getPermissions('1', 'profiledashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1', 'profiledashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 09:00:04 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 28.
+ 1 APPPATH\Controllers\ProfilePermission.php(25): App\Models\ProfileModel->getPermissions('3', 'profiledashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('3', 'profiledashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 09:00:04 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 28.
+ 1 APPPATH\Controllers\ProfilePermission.php(25): App\Models\ProfileModel->getPermissions('3', 'profilelotno')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('3', 'profilelotno')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 09:00:07 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 28.
+ 1 APPPATH\Controllers\ProfilePermission.php(25): App\Models\ProfileModel->getPermissions('1', 'profilelotno')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1', 'profilelotno')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 09:00:07 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 28.
+ 1 APPPATH\Controllers\ProfilePermission.php(25): App\Models\ProfileModel->getPermissions('1', 'profiledashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1', 'profiledashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 09:00:08 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 28.
+ 1 APPPATH\Controllers\ProfilePermission.php(25): App\Models\ProfileModel->getPermissions('3', 'profiledashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('3', 'profiledashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 09:00:08 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 28.
+ 1 APPPATH\Controllers\ProfilePermission.php(25): App\Models\ProfileModel->getPermissions('3', 'profilelotno')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('3', 'profilelotno')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 09:00:12 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 28.
+ 1 APPPATH\Controllers\ProfilePermission.php(25): App\Models\ProfileModel->getPermissions('1', 'profiledashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1', 'profiledashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 09:00:12 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 28.
+ 1 APPPATH\Controllers\ProfilePermission.php(25): App\Models\ProfileModel->getPermissions('1', 'profilelotno')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1', 'profilelotno')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-26 09:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-10-26 09:02:40 --> Database Query Result: Array
+(
+    [profiledashboard_id] => 1
+    [profile_id] => 1
+    [add_dashboard] => 0
+    [view_dashboard] => 1
+    [edit_dashboard] => 1
+    [delete_dashbaord] => 1
+)
+
+CRITICAL - 2023-10-26 09:02:40 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 26.
+ 1 APPPATH\Controllers\ProfilePermission.php(25): App\Models\ProfileModel->getPermissions('1', 'profiledashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1', 'profiledashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-10-26 09:02:40 --> Database Query Result: Array
+(
+    [profileLotNo_id] => 1
+    [profile_id] => 1
+    [add_lotNo] => 1
+    [edit_lotNo] => 1
+    [view_lotNo] => 1
+    [delete_lotNo] => 1
+)
+
+CRITICAL - 2023-10-26 09:02:40 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 26.
+ 1 APPPATH\Controllers\ProfilePermission.php(25): App\Models\ProfileModel->getPermissions('1', 'profilelotno')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1', 'profilelotno')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-10-26 09:02:44 --> Database Query Result: Array
+(
+    [profiledashboard_id] => 4
+    [profile_id] => 4
+    [add_dashboard] => 0
+    [view_dashboard] => 1
+    [edit_dashboard] => 0
+    [delete_dashbaord] => 1
+)
+
+DEBUG - 2023-10-26 09:02:44 --> Database Query Result: Array
+(
+    [profileLotNo_id] => 4
+    [profile_id] => 4
+    [add_lotNo] => 1
+    [edit_lotNo] => 1
+    [view_lotNo] => 1
+    [delete_lotNo] => 1
+)
+
+CRITICAL - 2023-10-26 09:02:44 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 26.
+ 1 APPPATH\Controllers\ProfilePermission.php(25): App\Models\ProfileModel->getPermissions('4', 'profiledashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('4', 'profiledashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 09:02:44 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 26.
+ 1 APPPATH\Controllers\ProfilePermission.php(25): App\Models\ProfileModel->getPermissions('4', 'profilelotno')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('4', 'profilelotno')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-26 09:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-10-26 09:04:08 --> Database Query Result: Array
+(
+    [profileLotNo_id] => 1
+    [profile_id] => 1
+    [add_lotNo] => 1
+    [edit_lotNo] => 1
+    [view_lotNo] => 1
+    [delete_lotNo] => 1
+)
+
+DEBUG - 2023-10-26 09:04:08 --> Database Query Result: Array
+(
+    [profiledashboard_id] => 1
+    [profile_id] => 1
+    [add_dashboard] => 0
+    [view_dashboard] => 1
+    [edit_dashboard] => 1
+    [delete_dashbaord] => 1
+)
+
+CRITICAL - 2023-10-26 09:04:08 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 26.
+ 1 APPPATH\Controllers\ProfilePermission.php(25): App\Models\ProfileModel->getPermissions('1', 'profilelotno')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1', 'profilelotno')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 09:04:08 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 26.
+ 1 APPPATH\Controllers\ProfilePermission.php(25): App\Models\ProfileModel->getPermissions('1', 'profiledashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1', 'profiledashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-26 09:05:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-10-26 09:05:58 --> Fetching permissions for Profile ID: 1, Module: profilelotno
+DEBUG - 2023-10-26 09:05:58 --> Fetching permissions for Profile ID: 1, Module: profiledashboard
+DEBUG - 2023-10-26 09:05:58 --> Database Query Result: Array
+(
+    [profileLotNo_id] => 1
+    [profile_id] => 1
+    [add_lotNo] => 1
+    [edit_lotNo] => 1
+    [view_lotNo] => 1
+    [delete_lotNo] => 1
+)
+
+CRITICAL - 2023-10-26 09:05:58 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 26.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('1', 'profilelotno')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1', 'profilelotno')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-10-26 09:05:58 --> Database Query Result: Array
+(
+    [profiledashboard_id] => 1
+    [profile_id] => 1
+    [add_dashboard] => 0
+    [view_dashboard] => 1
+    [edit_dashboard] => 1
+    [delete_dashbaord] => 1
+)
+
+CRITICAL - 2023-10-26 09:05:58 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 26.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('1', 'profiledashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1', 'profiledashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-26 09:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-10-26 09:09:01 --> Fetching permissions for Profile ID: 2, Module: profiledashboard
+DEBUG - 2023-10-26 09:09:01 --> Fetching permissions for Profile ID: 2, Module: profilelotno
+DEBUG - 2023-10-26 09:09:01 --> Database Query: 
+DEBUG - 2023-10-26 09:09:01 --> Database Query: 
+DEBUG - 2023-10-26 09:09:01 --> Database Query Result: Array
+(
+    [profileLotNo_id] => 2
+    [profile_id] => 2
+    [add_lotNo] => 1
+    [edit_lotNo] => 1
+    [view_lotNo] => 1
+    [delete_lotNo] => 1
+)
+
+DEBUG - 2023-10-26 09:09:01 --> Database Query Result: Array
+(
+    [profiledashboard_id] => 2
+    [profile_id] => 2
+    [add_dashboard] => 1
+    [view_dashboard] => 1
+    [edit_dashboard] => 0
+    [delete_dashbaord] => 1
+)
+
+CRITICAL - 2023-10-26 09:09:01 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 27.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('2', 'profilelotno')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2', 'profilelotno')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 09:09:01 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 27.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('2', 'profiledashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2', 'profiledashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-26 09:18:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-10-26 09:18:49 --> Fetching permissions for Profile ID: 1, Module: profilelotno
+DEBUG - 2023-10-26 09:18:49 --> Database Query: 
+DEBUG - 2023-10-26 09:18:49 --> Fetching permissions for Profile ID: 1, Module: profiledashboard
+DEBUG - 2023-10-26 09:18:49 --> Database Query: 
+DEBUG - 2023-10-26 09:18:49 --> Database Query Result: Array
+(
+    [profileLotNo_id] => 1
+    [profile_id] => 1
+    [add_lotNo] => 1
+    [edit_lotNo] => 1
+    [view_lotNo] => 1
+    [delete_lotNo] => 1
+)
+
+CRITICAL - 2023-10-26 09:18:49 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 27.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('1', 'profilelotno')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1', 'profilelotno')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-10-26 09:18:49 --> Database Query Result: Array
+(
+    [profiledashboard_id] => 1
+    [profile_id] => 1
+    [add_dashboard] => 0
+    [view_dashboard] => 1
+    [edit_dashboard] => 1
+    [delete_dashbaord] => 1
+)
+
+CRITICAL - 2023-10-26 09:18:49 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 27.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('1', 'profiledashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1', 'profiledashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-10-26 09:18:54 --> Fetching permissions for Profile ID: 2, Module: profiledashboard
+DEBUG - 2023-10-26 09:18:54 --> Database Query: 
+DEBUG - 2023-10-26 09:18:54 --> Fetching permissions for Profile ID: 2, Module: profilelotno
+DEBUG - 2023-10-26 09:18:54 --> Database Query: 
+DEBUG - 2023-10-26 09:18:54 --> Database Query Result: Array
+(
+    [profileLotNo_id] => 2
+    [profile_id] => 2
+    [add_lotNo] => 1
+    [edit_lotNo] => 1
+    [view_lotNo] => 1
+    [delete_lotNo] => 1
+)
+
+DEBUG - 2023-10-26 09:18:54 --> Database Query Result: Array
+(
+    [profiledashboard_id] => 2
+    [profile_id] => 2
+    [add_dashboard] => 1
+    [view_dashboard] => 1
+    [edit_dashboard] => 0
+    [delete_dashbaord] => 1
+)
+
+CRITICAL - 2023-10-26 09:18:54 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 27.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('2', 'profilelotno')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2', 'profilelotno')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 09:18:54 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 27.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('2', 'profiledashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2', 'profiledashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-10-26 09:19:28 --> Fetching permissions for Profile ID: 2, Module: profiledashboard
+DEBUG - 2023-10-26 09:19:28 --> Database Query: 
+DEBUG - 2023-10-26 09:19:28 --> Fetching permissions for Profile ID: 2, Module: profilelotno
+DEBUG - 2023-10-26 09:19:28 --> Database Query: 
+DEBUG - 2023-10-26 09:19:28 --> Database Query Result: Array
+(
+    [profiledashboard_id] => 2
+    [profile_id] => 2
+    [add_dashboard] => 1
+    [view_dashboard] => 1
+    [edit_dashboard] => 0
+    [delete_dashbaord] => 1
+)
+
+CRITICAL - 2023-10-26 09:19:28 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 27.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('2', 'profiledashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2', 'profiledashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-10-26 09:19:28 --> Database Query Result: Array
+(
+    [profileLotNo_id] => 2
+    [profile_id] => 2
+    [add_lotNo] => 1
+    [edit_lotNo] => 1
+    [view_lotNo] => 1
+    [delete_lotNo] => 1
+)
+
+CRITICAL - 2023-10-26 09:19:28 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 27.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('2', 'profilelotno')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2', 'profilelotno')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-10-26 09:19:54 --> Fetching permissions for Profile ID: 2, Module: profilelotno
+DEBUG - 2023-10-26 09:19:54 --> Fetching permissions for Profile ID: 2, Module: profiledashboard
+DEBUG - 2023-10-26 09:19:54 --> Database Query: 
+DEBUG - 2023-10-26 09:19:54 --> Database Query: 
+DEBUG - 2023-10-26 09:19:54 --> Database Query Result: Array
+(
+    [profileLotNo_id] => 2
+    [profile_id] => 2
+    [add_lotNo] => 1
+    [edit_lotNo] => 1
+    [view_lotNo] => 1
+    [delete_lotNo] => 1
+)
+
+DEBUG - 2023-10-26 09:19:54 --> Database Query Result: Array
+(
+    [profiledashboard_id] => 2
+    [profile_id] => 2
+    [add_dashboard] => 1
+    [view_dashboard] => 1
+    [edit_dashboard] => 0
+    [delete_dashbaord] => 1
+)
+
+CRITICAL - 2023-10-26 09:19:54 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 27.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('2', 'profilelotno')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2', 'profilelotno')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 09:19:54 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 27.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('2', 'profiledashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2', 'profiledashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-26 09:20:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-10-26 09:21:01 --> Fetching permissions for Profile ID: 2, Module: profilelotno
+DEBUG - 2023-10-26 09:21:01 --> Database Query: 
+DEBUG - 2023-10-26 09:21:01 --> Fetching permissions for Profile ID: 2, Module: profiledashboard
+DEBUG - 2023-10-26 09:21:01 --> Database Query: 
+DEBUG - 2023-10-26 09:21:01 --> Database Query Result: Array
+(
+    [profileLotNo_id] => 2
+    [profile_id] => 2
+    [add_lotNo] => 1
+    [edit_lotNo] => 1
+    [view_lotNo] => 1
+    [delete_lotNo] => 1
+)
+
+CRITICAL - 2023-10-26 09:21:01 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 27.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('2', 'profilelotno')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2', 'profilelotno')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-10-26 09:21:01 --> Database Query Result: Array
+(
+    [profiledashboard_id] => 2
+    [profile_id] => 2
+    [add_dashboard] => 1
+    [view_dashboard] => 1
+    [edit_dashboard] => 0
+    [delete_dashbaord] => 1
+)
+
+CRITICAL - 2023-10-26 09:21:01 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 27.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('2', 'profiledashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2', 'profiledashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-26 09:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-10-26 09:22:19 --> Fetching permissions for Profile ID: 1, Module: profiledashboard
+DEBUG - 2023-10-26 09:22:19 --> Fetching permissions for Profile ID: 1, Module: profilelotno
+DEBUG - 2023-10-26 09:22:19 --> Database Query: 
+DEBUG - 2023-10-26 09:22:19 --> Database Query: 
+DEBUG - 2023-10-26 09:22:19 --> Database Query Result: Array
+(
+    [profileLotNo_id] => 1
+    [profile_id] => 1
+    [add_lotNo] => 1
+    [edit_lotNo] => 1
+    [view_lotNo] => 1
+    [delete_lotNo] => 1
+)
+
+DEBUG - 2023-10-26 09:22:19 --> Database Query Result: Array
+(
+    [profiledashboard_id] => 1
+    [profile_id] => 1
+    [add_dashboard] => 0
+    [view_dashboard] => 1
+    [edit_dashboard] => 1
+    [delete_dashbaord] => 1
+)
+
+CRITICAL - 2023-10-26 09:22:19 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 27.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('1', 'profiledashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1', 'profiledashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 09:22:19 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 27.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('1', 'profilelotno')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1', 'profilelotno')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-10-26 09:22:21 --> Fetching permissions for Profile ID: 2, Module: profilelotno
+DEBUG - 2023-10-26 09:22:21 --> Database Query: 
+DEBUG - 2023-10-26 09:22:21 --> Fetching permissions for Profile ID: 2, Module: profiledashboard
+DEBUG - 2023-10-26 09:22:21 --> Database Query: 
+DEBUG - 2023-10-26 09:22:21 --> Database Query Result: Array
+(
+    [profileLotNo_id] => 2
+    [profile_id] => 2
+    [add_lotNo] => 1
+    [edit_lotNo] => 1
+    [view_lotNo] => 1
+    [delete_lotNo] => 1
+)
+
+CRITICAL - 2023-10-26 09:22:21 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 27.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('2', 'profilelotno')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2', 'profilelotno')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-10-26 09:22:21 --> Database Query Result: Array
+(
+    [profiledashboard_id] => 2
+    [profile_id] => 2
+    [add_dashboard] => 1
+    [view_dashboard] => 1
+    [edit_dashboard] => 0
+    [delete_dashbaord] => 1
+)
+
+CRITICAL - 2023-10-26 09:22:21 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 27.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('2', 'profiledashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2', 'profiledashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-10-26 09:22:23 --> Fetching permissions for Profile ID: 3, Module: profilelotno
+DEBUG - 2023-10-26 09:22:23 --> Database Query: 
+DEBUG - 2023-10-26 09:22:23 --> Fetching permissions for Profile ID: 3, Module: profiledashboard
+DEBUG - 2023-10-26 09:22:23 --> Database Query: 
+DEBUG - 2023-10-26 09:22:23 --> Database Query Result: Array
+(
+    [profileLotNo_id] => 3
+    [profile_id] => 3
+    [add_lotNo] => 1
+    [edit_lotNo] => 1
+    [view_lotNo] => 1
+    [delete_lotNo] => 1
+)
+
+CRITICAL - 2023-10-26 09:22:23 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 27.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('3', 'profilelotno')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('3', 'profilelotno')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-10-26 09:22:23 --> Database Query Result: Array
+(
+    [profiledashboard_id] => 3
+    [profile_id] => 3
+    [add_dashboard] => 1
+    [view_dashboard] => 1
+    [edit_dashboard] => 1
+    [delete_dashbaord] => 1
+)
+
+CRITICAL - 2023-10-26 09:22:23 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 27.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('3', 'profiledashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('3', 'profiledashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-26 09:25:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-10-26 09:25:04 --> Fetching permissions for Profile ID: 1, Module: profiledashboard
+DEBUG - 2023-10-26 09:25:04 --> Database Query: 
+DEBUG - 2023-10-26 09:25:04 --> Fetching permissions for Profile ID: 1, Module: profilelotno
+DEBUG - 2023-10-26 09:25:04 --> Database Query: 
+DEBUG - 2023-10-26 09:25:04 --> Database Query Result: Array
+(
+    [profiledashboard_id] => 1
+    [profile_id] => 1
+    [add_dashboard] => 0
+    [view_dashboard] => 1
+    [edit_dashboard] => 1
+    [delete_dashbaord] => 1
+)
+
+CRITICAL - 2023-10-26 09:25:04 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 27.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('1', 'profiledashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1', 'profiledashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-10-26 09:25:04 --> Database Query Result: Array
+(
+    [profileLotNo_id] => 1
+    [profile_id] => 1
+    [add_lotNo] => 1
+    [edit_lotNo] => 1
+    [view_lotNo] => 1
+    [delete_lotNo] => 1
+)
+
+CRITICAL - 2023-10-26 09:25:04 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 27.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('1', 'profilelotno')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1', 'profilelotno')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-26 09:25:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-10-26 09:25:12 --> Fetching permissions for Profile ID: 2, Module: profiledashboard
+DEBUG - 2023-10-26 09:25:12 --> Database Query: 
+DEBUG - 2023-10-26 09:25:12 --> Fetching permissions for Profile ID: 2, Module: profilelotno
+DEBUG - 2023-10-26 09:25:12 --> Database Query: 
+DEBUG - 2023-10-26 09:25:12 --> Database Query Result: Array
+(
+    [profileLotNo_id] => 2
+    [profile_id] => 2
+    [add_lotNo] => 1
+    [edit_lotNo] => 1
+    [view_lotNo] => 1
+    [delete_lotNo] => 1
+)
+
+DEBUG - 2023-10-26 09:25:12 --> Database Query Result: Array
+(
+    [profiledashboard_id] => 2
+    [profile_id] => 2
+    [add_dashboard] => 1
+    [view_dashboard] => 1
+    [edit_dashboard] => 0
+    [delete_dashbaord] => 1
+)
+
+CRITICAL - 2023-10-26 09:25:12 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 27.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('2', 'profilelotno')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2', 'profilelotno')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 09:25:12 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 27.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('2', 'profiledashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2', 'profiledashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-26 09:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-10-26 09:25:36 --> Fetching permissions for Profile ID: 1, Module: profilelotno
+DEBUG - 2023-10-26 09:25:36 --> Database Query: 
+DEBUG - 2023-10-26 09:25:36 --> Fetching permissions for Profile ID: 1, Module: profiledashboard
+DEBUG - 2023-10-26 09:25:36 --> Database Query: 
+DEBUG - 2023-10-26 09:25:36 --> Database Query Result: Array
+(
+    [profileLotNo_id] => 1
+    [profile_id] => 1
+    [add_lotNo] => 1
+    [edit_lotNo] => 1
+    [view_lotNo] => 1
+    [delete_lotNo] => 1
+)
+
+DEBUG - 2023-10-26 09:25:36 --> Database Query Result: Array
+(
+    [profiledashboard_id] => 1
+    [profile_id] => 1
+    [add_dashboard] => 0
+    [view_dashboard] => 1
+    [edit_dashboard] => 1
+    [delete_dashbaord] => 1
+)
+
+CRITICAL - 2023-10-26 09:25:36 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 27.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('1', 'profilelotno')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1', 'profilelotno')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 09:25:36 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 27.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('1', 'profiledashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1', 'profiledashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-10-26 09:25:39 --> Fetching permissions for Profile ID: 3, Module: profiledashboard
+DEBUG - 2023-10-26 09:25:39 --> Fetching permissions for Profile ID: 3, Module: profilelotno
+DEBUG - 2023-10-26 09:25:39 --> Database Query: 
+DEBUG - 2023-10-26 09:25:39 --> Database Query: 
+DEBUG - 2023-10-26 09:25:39 --> Database Query Result: Array
+(
+    [profiledashboard_id] => 3
+    [profile_id] => 3
+    [add_dashboard] => 1
+    [view_dashboard] => 1
+    [edit_dashboard] => 1
+    [delete_dashbaord] => 1
+)
+
+DEBUG - 2023-10-26 09:25:39 --> Database Query Result: Array
+(
+    [profileLotNo_id] => 3
+    [profile_id] => 3
+    [add_lotNo] => 1
+    [edit_lotNo] => 1
+    [view_lotNo] => 1
+    [delete_lotNo] => 1
+)
+
+CRITICAL - 2023-10-26 09:25:39 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 27.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('3', 'profiledashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('3', 'profiledashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 09:25:39 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 27.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('3', 'profilelotno')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('3', 'profilelotno')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-10-26 09:35:36 --> Fetching permissions for Profile ID: 1, Module: profilelotno
+DEBUG - 2023-10-26 09:35:36 --> Fetching permissions for Profile ID: 1, Module: profiledashboard
+DEBUG - 2023-10-26 09:35:36 --> Database Query: 
+DEBUG - 2023-10-26 09:35:36 --> Database Query: 
+DEBUG - 2023-10-26 09:35:36 --> Database Query Result: Array
+(
+    [profileLotNo_id] => 1
+    [profile_id] => 1
+    [add_lotNo] => 1
+    [edit_lotNo] => 1
+    [view_lotNo] => 1
+    [delete_lotNo] => 1
+)
+
+DEBUG - 2023-10-26 09:35:36 --> Database Query Result: Array
+(
+    [profiledashboard_id] => 1
+    [profile_id] => 1
+    [add_dashboard] => 0
+    [view_dashboard] => 1
+    [edit_dashboard] => 1
+    [delete_dashbaord] => 1
+)
+
+CRITICAL - 2023-10-26 09:35:36 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 27.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('1', 'profilelotno')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1', 'profilelotno')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 09:35:36 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 27.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('1', 'profiledashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1', 'profiledashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-26 09:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-26 09:35:48 --> Undefined array key "profile_role"
+in APPPATH\Views\profilepermission.php on line 90.
+ 1 APPPATH\Views\profilepermission.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "profile_role"', 'C:\\xampp\\htdocs\\CI4\\CI4\\app\\Views\\profilepermission.php', 90)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\CI4\\CI4\\app\\Views\\profilepermission.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('profilepermission', [], true)
+ 5 APPPATH\Controllers\ProfilePermission.php(19): view('profilepermission', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-26 09:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-10-26 09:36:06 --> Fetching permissions for Profile ID: 2, Module: profiledashboard
+DEBUG - 2023-10-26 09:36:06 --> Database Query: 
+DEBUG - 2023-10-26 09:36:06 --> Fetching permissions for Profile ID: 2, Module: profilelotno
+DEBUG - 2023-10-26 09:36:06 --> Database Query: 
+DEBUG - 2023-10-26 09:36:06 --> Database Query Result: Array
+(
+    [profiledashboard_id] => 2
+    [profile_id] => 2
+    [add_dashboard] => 1
+    [view_dashboard] => 1
+    [edit_dashboard] => 0
+    [delete_dashbaord] => 1
+)
+
+CRITICAL - 2023-10-26 09:36:06 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 27.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('2', 'profiledashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2', 'profiledashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-10-26 09:36:06 --> Database Query Result: Array
+(
+    [profileLotNo_id] => 2
+    [profile_id] => 2
+    [add_lotNo] => 1
+    [edit_lotNo] => 1
+    [view_lotNo] => 1
+    [delete_lotNo] => 1
+)
+
+CRITICAL - 2023-10-26 09:36:06 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 27.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('2', 'profilelotno')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2', 'profilelotno')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-26 09:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-10-26 09:46:09 --> Fetching permissions for Profile ID: 2, Module: profiledashboard
+DEBUG - 2023-10-26 09:46:09 --> Fetching permissions for Profile ID: 2, Module: profilelotno
+DEBUG - 2023-10-26 09:46:19 --> Fetching permissions for Profile ID: 2, Module: profiledashboard
+DEBUG - 2023-10-26 09:46:19 --> Fetching permissions for Profile ID: 2, Module: profilelotno
+DEBUG - 2023-10-26 09:46:25 --> Fetching permissions for Profile ID: 1, Module: profilelotno
+DEBUG - 2023-10-26 09:46:25 --> Fetching permissions for Profile ID: 1, Module: profiledashboard
+INFO - 2023-10-26 09:46:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-10-26 09:46:30 --> Fetching permissions for Profile ID: 1, Module: profiledashboard
+DEBUG - 2023-10-26 09:46:30 --> Fetching permissions for Profile ID: 1, Module: profilelotno
+INFO - 2023-10-26 09:47:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-10-26 09:47:40 --> Fetching permissions for Profile ID: 2, Module: profilelotno
+DEBUG - 2023-10-26 09:47:40 --> Fetching permissions for Profile ID: 2, Module: profiledashboard
+DEBUG - 2023-10-26 09:47:43 --> Fetching permissions for Profile ID: 4, Module: profiledashboard
+DEBUG - 2023-10-26 09:47:43 --> Fetching permissions for Profile ID: 4, Module: profilelotno
+INFO - 2023-10-26 09:49:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-10-26 09:49:10 --> Fetching permissions for Profile ID: 2, Module: profilelotno
+DEBUG - 2023-10-26 09:49:10 --> Fetching permissions for Profile ID: 2, Module: profiledashboard
+INFO - 2023-10-26 09:49:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-10-26 09:49:21 --> Fetching permissions for Profile ID: 1, Module: profilelotno
+DEBUG - 2023-10-26 09:49:21 --> Fetching permissions for Profile ID: 1, Module: profiledashboard
+DEBUG - 2023-10-26 09:49:25 --> Fetching permissions for Profile ID: 3, Module: profilelotno
+DEBUG - 2023-10-26 09:49:25 --> Fetching permissions for Profile ID: 3, Module: profiledashboard
+INFO - 2023-10-26 09:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-10-26 09:50:32 --> Fetching permissions for Profile ID: 2, Module: profiledashboard
+DEBUG - 2023-10-26 09:50:32 --> Fetching permissions for Profile ID: 2, Module: profilelotno
+INFO - 2023-10-26 09:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-10-26 09:50:39 --> Fetching permissions for Profile ID: 1, Module: profiledashboard
+DEBUG - 2023-10-26 09:50:39 --> Fetching permissions for Profile ID: 1, Module: profilelotno
+DEBUG - 2023-10-26 09:50:44 --> Fetching permissions for Profile ID: 2, Module: profilelotno
+DEBUG - 2023-10-26 09:50:44 --> Fetching permissions for Profile ID: 2, Module: profiledashboard
+DEBUG - 2023-10-26 09:50:45 --> Fetching permissions for Profile ID: 3, Module: profiledashboard
+DEBUG - 2023-10-26 09:50:45 --> Fetching permissions for Profile ID: 3, Module: profilelotno
+INFO - 2023-10-26 09:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-10-26 09:52:46 --> Fetching permissions for Profile ID: 2, Module: profiledashboard
+DEBUG - 2023-10-26 09:52:46 --> Fetching permissions for Profile ID: 2, Module: profilelotno
+DEBUG - 2023-10-26 09:52:46 --> Database Query Result: Array
+(
+    [profiledashboard_id] => 2
+    [profile_id] => 2
+    [add_dashboard] => 1
+    [view_dashboard] => 1
+    [edit_dashboard] => 0
+    [delete_dashbaord] => 1
+    [profile_role] => Supervisor
+    [profileLotNo_id] => 2
+)
+
+CRITICAL - 2023-10-26 09:52:46 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 33.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('2', 'profiledashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2', 'profiledashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-10-26 09:52:46 --> Database Query Result: Array
+(
+    [profileLotNo_id] => 2
+    [profile_id] => 2
+    [add_lotNo] => 1
+    [edit_lotNo] => 1
+    [view_lotNo] => 1
+    [delete_lotNo] => 1
+    [profile_role] => Supervisor
+    [profiledashboard_id] => 2
+)
+
+CRITICAL - 2023-10-26 09:52:46 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 33.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('2', 'profilelotno')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2', 'profilelotno')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-10-26 09:52:51 --> Fetching permissions for Profile ID: 2, Module: profilelotno
+DEBUG - 2023-10-26 09:52:51 --> Fetching permissions for Profile ID: 2, Module: profiledashboard
+DEBUG - 2023-10-26 09:52:51 --> Database Query Result: Array
+(
+    [profiledashboard_id] => 2
+    [profile_id] => 2
+    [add_dashboard] => 1
+    [view_dashboard] => 1
+    [edit_dashboard] => 0
+    [delete_dashbaord] => 1
+    [profile_role] => Supervisor
+    [profileLotNo_id] => 2
+)
+
+CRITICAL - 2023-10-26 09:52:51 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 33.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('2', 'profiledashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2', 'profiledashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-10-26 09:52:51 --> Database Query Result: Array
+(
+    [profileLotNo_id] => 2
+    [profile_id] => 2
+    [add_lotNo] => 1
+    [edit_lotNo] => 1
+    [view_lotNo] => 1
+    [delete_lotNo] => 1
+    [profile_role] => Supervisor
+    [profiledashboard_id] => 2
+)
+
+CRITICAL - 2023-10-26 09:52:51 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 33.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('2', 'profilelotno')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2', 'profilelotno')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-26 09:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-10-26 09:52:55 --> Fetching permissions for Profile ID: 1, Module: profilelotno
+DEBUG - 2023-10-26 09:52:55 --> Fetching permissions for Profile ID: 1, Module: profiledashboard
+DEBUG - 2023-10-26 09:52:55 --> Database Query Result: Array
+(
+    [profileLotNo_id] => 1
+    [profile_id] => 1
+    [add_lotNo] => 1
+    [edit_lotNo] => 1
+    [view_lotNo] => 1
+    [delete_lotNo] => 1
+    [profile_role] => Admin
+    [profiledashboard_id] => 1
+)
+
+CRITICAL - 2023-10-26 09:52:55 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 33.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('1', 'profilelotno')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1', 'profilelotno')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-10-26 09:52:55 --> Database Query Result: Array
+(
+    [profiledashboard_id] => 1
+    [profile_id] => 1
+    [add_dashboard] => 0
+    [view_dashboard] => 1
+    [edit_dashboard] => 1
+    [delete_dashbaord] => 1
+    [profile_role] => Admin
+    [profileLotNo_id] => 1
+)
+
+CRITICAL - 2023-10-26 09:52:55 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 33.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('1', 'profiledashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1', 'profiledashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-26 09:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-10-26 09:57:07 --> Fetching permissions for Profile ID: 3, Module: profilelotno
+DEBUG - 2023-10-26 09:57:07 --> Fetching permissions for Profile ID: 3, Module: profiledashboard
+DEBUG - 2023-10-26 09:57:07 --> Database Query Result: Array
+(
+    [profileLotNo_id] => 3
+    [profile_id] => 3
+    [add_lotNo] => 1
+    [edit_lotNo] => 1
+    [view_lotNo] => 1
+    [delete_lotNo] => 1
+    [profile_role] => Staff
+    [profiledashboard_id] => 3
+)
+
+CRITICAL - 2023-10-26 09:57:07 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 33.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('3', 'profilelotno')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('3', 'profilelotno')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-10-26 09:57:07 --> Database Query Result: Array
+(
+    [profiledashboard_id] => 3
+    [profile_id] => 3
+    [add_dashboard] => 1
+    [view_dashboard] => 1
+    [edit_dashboard] => 1
+    [delete_dashbaord] => 1
+    [profile_role] => Staff
+    [profileLotNo_id] => 3
+)
+
+CRITICAL - 2023-10-26 09:57:07 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 33.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('3', 'profiledashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('3', 'profiledashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-26 09:57:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-10-26 09:57:53 --> Fetching permissions for Profile ID: 1, Module: profilelotno
+DEBUG - 2023-10-26 09:57:53 --> Fetching permissions for Profile ID: 1, Module: profiledashboard
+DEBUG - 2023-10-26 09:57:53 --> Database Query Result: Array
+(
+    [profileLotNo_id] => 1
+    [profile_id] => 1
+    [add_lotNo] => 1
+    [edit_lotNo] => 1
+    [view_lotNo] => 1
+    [delete_lotNo] => 1
+    [profile_role] => Admin
+    [profiledashboard_id] => 1
+)
+
+DEBUG - 2023-10-26 09:57:53 --> Database Query Result: Array
+(
+    [profiledashboard_id] => 1
+    [profile_id] => 1
+    [add_dashboard] => 0
+    [view_dashboard] => 1
+    [edit_dashboard] => 1
+    [delete_dashbaord] => 1
+    [profile_role] => Admin
+    [profileLotNo_id] => 1
+)
+
+CRITICAL - 2023-10-26 09:57:53 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 33.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('1', 'profilelotno')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1', 'profilelotno')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 09:57:53 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 33.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('1', 'profiledashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1', 'profiledashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-26 10:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 10:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-26 10:05:01 --> mysqli_sql_exception: Table 'kastam_bond.company' doesn't exist in C:\xampp\htdocs\CI4\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\CI4\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\CI4\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\CI4\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CI4\CI4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\CI4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\CI4\CI4\app\Models\CompanyModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\CI4\CI4\app\Controllers\User.php(21): App\Models\CompanyModel->getCompanyNames()
+#8 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(919): App\Controllers\User->index()
+#9 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CI4\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-26 10:05:01 --> Table 'kastam_bond.company' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `company`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\CompanyModel.php(17): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\User.php(21): App\Models\CompanyModel->getCompanyNames()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-26 10:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 10:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 10:05:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-10-26 10:05:08 --> Fetching permissions for Profile ID: 1, Module: profilelotno
+DEBUG - 2023-10-26 10:05:08 --> Fetching permissions for Profile ID: 1, Module: profiledashboard
+DEBUG - 2023-10-26 10:05:08 --> Database Query Result: Array
+(
+    [profiledashboard_id] => 1
+    [profile_id] => 1
+    [add_dashboard] => 0
+    [view_dashboard] => 1
+    [edit_dashboard] => 1
+    [delete_dashbaord] => 1
+    [profile_role] => Admin
+    [profileLotNo_id] => 1
+)
+
+DEBUG - 2023-10-26 10:05:08 --> Database Query Result: Array
+(
+    [profileLotNo_id] => 1
+    [profile_id] => 1
+    [add_lotNo] => 1
+    [edit_lotNo] => 1
+    [view_lotNo] => 1
+    [delete_lotNo] => 1
+    [profile_role] => Admin
+    [profiledashboard_id] => 1
+)
+
+CRITICAL - 2023-10-26 10:05:08 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 33.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('1', 'profiledashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1', 'profiledashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 10:05:08 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 33.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('1', 'profilelotno')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1', 'profilelotno')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-10-26 10:05:10 --> Fetching permissions for Profile ID: 2, Module: profiledashboard
+DEBUG - 2023-10-26 10:05:10 --> Fetching permissions for Profile ID: 2, Module: profilelotno
+DEBUG - 2023-10-26 10:05:10 --> Database Query Result: Array
+(
+    [profiledashboard_id] => 2
+    [profile_id] => 2
+    [add_dashboard] => 1
+    [view_dashboard] => 1
+    [edit_dashboard] => 0
+    [delete_dashbaord] => 1
+    [profile_role] => Supervisor
+    [profileLotNo_id] => 2
+)
+
+DEBUG - 2023-10-26 10:05:10 --> Database Query Result: Array
+(
+    [profileLotNo_id] => 2
+    [profile_id] => 2
+    [add_lotNo] => 1
+    [edit_lotNo] => 1
+    [view_lotNo] => 1
+    [delete_lotNo] => 1
+    [profile_role] => Supervisor
+    [profiledashboard_id] => 2
+)
+
+CRITICAL - 2023-10-26 10:05:10 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 33.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('2', 'profiledashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2', 'profiledashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 10:05:10 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 33.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('2', 'profilelotno')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2', 'profilelotno')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-10-26 10:08:11 --> Fetching permissions for Profile ID: 2, Module: profilelotno
+DEBUG - 2023-10-26 10:08:11 --> Fetching permissions for Profile ID: 2, Module: profiledashboard
+DEBUG - 2023-10-26 10:08:11 --> Database Query Result: Array
+(
+    [profileLotNo_id] => 2
+    [profile_id] => 2
+    [add_lotNo] => 1
+    [edit_lotNo] => 1
+    [view_lotNo] => 1
+    [delete_lotNo] => 1
+    [profile_role] => Supervisor
+    [profiledashboard_id] => 2
+)
+
+CRITICAL - 2023-10-26 10:08:11 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 33.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('2', 'profilelotno')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2', 'profilelotno')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-10-26 10:08:11 --> Database Query Result: Array
+(
+    [profiledashboard_id] => 2
+    [profile_id] => 2
+    [add_dashboard] => 1
+    [view_dashboard] => 1
+    [edit_dashboard] => 0
+    [delete_dashbaord] => 1
+    [profile_role] => Supervisor
+    [profileLotNo_id] => 2
+)
+
+CRITICAL - 2023-10-26 10:08:11 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 33.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('2', 'profiledashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2', 'profiledashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-10-26 10:08:21 --> Fetching permissions for Profile ID: 1, Module: profiledashboard
+DEBUG - 2023-10-26 10:08:21 --> Fetching permissions for Profile ID: 1, Module: profilelotno
+DEBUG - 2023-10-26 10:08:21 --> Database Query Result: Array
+(
+    [profiledashboard_id] => 1
+    [profile_id] => 1
+    [add_dashboard] => 0
+    [view_dashboard] => 1
+    [edit_dashboard] => 1
+    [delete_dashbaord] => 1
+    [profile_role] => Admin
+    [profileLotNo_id] => 1
+)
+
+CRITICAL - 2023-10-26 10:08:21 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 33.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('1', 'profiledashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1', 'profiledashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-10-26 10:08:21 --> Database Query Result: Array
+(
+    [profileLotNo_id] => 1
+    [profile_id] => 1
+    [add_lotNo] => 1
+    [edit_lotNo] => 1
+    [view_lotNo] => 1
+    [delete_lotNo] => 1
+    [profile_role] => Admin
+    [profiledashboard_id] => 1
+)
+
+CRITICAL - 2023-10-26 10:08:21 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 33.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('1', 'profilelotno')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1', 'profilelotno')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-10-26 10:08:22 --> Fetching permissions for Profile ID: 3, Module: profiledashboard
+DEBUG - 2023-10-26 10:08:22 --> Fetching permissions for Profile ID: 3, Module: profilelotno
+DEBUG - 2023-10-26 10:08:22 --> Database Query Result: Array
+(
+    [profiledashboard_id] => 3
+    [profile_id] => 3
+    [add_dashboard] => 1
+    [view_dashboard] => 1
+    [edit_dashboard] => 1
+    [delete_dashbaord] => 1
+    [profile_role] => Staff
+    [profileLotNo_id] => 3
+)
+
+CRITICAL - 2023-10-26 10:08:22 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 33.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('3', 'profiledashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('3', 'profiledashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-10-26 10:08:23 --> Database Query Result: Array
+(
+    [profileLotNo_id] => 3
+    [profile_id] => 3
+    [add_lotNo] => 1
+    [edit_lotNo] => 1
+    [view_lotNo] => 1
+    [delete_lotNo] => 1
+    [profile_role] => Staff
+    [profiledashboard_id] => 3
+)
+
+CRITICAL - 2023-10-26 10:08:23 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 33.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('3', 'profilelotno')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('3', 'profilelotno')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-26 10:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 10:09:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-26 10:09:55 --> mysqli_sql_exception: Table 'kastam_bond.company' doesn't exist in C:\xampp\htdocs\CI4\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\CI4\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\CI4\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\CI4\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CI4\CI4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\CI4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\CI4\CI4\app\Models\CompanyModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\CI4\CI4\app\Controllers\User.php(21): App\Models\CompanyModel->getCompanyNames()
+#8 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(919): App\Controllers\User->index()
+#9 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CI4\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-26 10:09:55 --> Table 'kastam_bond.company' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `company`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\CompanyModel.php(17): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\User.php(21): App\Models\CompanyModel->getCompanyNames()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-26 10:09:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 10:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 10:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-10-26 10:10:08 --> Fetching permissions for Profile ID: 1, Module: profilelotno
+DEBUG - 2023-10-26 10:10:08 --> Fetching permissions for Profile ID: 1, Module: profiledashboard
+DEBUG - 2023-10-26 10:10:08 --> Database Query Result: Array
+(
+    [profileLotNo_id] => 1
+    [profile_id] => 1
+    [add_lotNo] => 1
+    [edit_lotNo] => 1
+    [view_lotNo] => 1
+    [delete_lotNo] => 1
+    [profile_role] => Admin
+    [profiledashboard_id] => 1
+)
+
+CRITICAL - 2023-10-26 10:10:08 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 33.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('1', 'profilelotno')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1', 'profilelotno')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-10-26 10:10:08 --> Database Query Result: Array
+(
+    [profiledashboard_id] => 1
+    [profile_id] => 1
+    [add_dashboard] => 0
+    [view_dashboard] => 1
+    [edit_dashboard] => 1
+    [delete_dashbaord] => 1
+    [profile_role] => Admin
+    [profileLotNo_id] => 1
+)
+
+CRITICAL - 2023-10-26 10:10:08 --> Call to a member function setJSON() on null
+in APPPATH\Models\ProfileModel.php on line 33.
+ 1 APPPATH\Controllers\ProfilePermission.php(26): App\Models\ProfileModel->getPermissions('1', 'profiledashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1', 'profiledashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

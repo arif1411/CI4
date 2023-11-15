@@ -1,0 +1,1022 @@
+INFO - 2023-11-06 03:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-06 03:41:00 --> mysqli_sql_exception: Table 'kastam_bond.company' doesn't exist in C:\xampp\htdocs\CI4\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\CI4\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\CI4\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\CI4\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CI4\CI4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\CI4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\CI4\CI4\app\Models\CompanyModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\CI4\CI4\app\Controllers\User.php(21): App\Models\CompanyModel->getCompanyNames()
+#8 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(919): App\Controllers\User->index()
+#9 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CI4\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-06 03:41:00 --> Table 'kastam_bond.company' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `company`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\CompanyModel.php(17): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\User.php(21): App\Models\CompanyModel->getCompanyNames()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 03:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-06 03:41:07 --> mysqli_sql_exception: Table 'kastam_bond.company' doesn't exist in C:\xampp\htdocs\CI4\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\CI4\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\CI4\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\CI4\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CI4\CI4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\CI4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\CI4\CI4\app\Models\CompanyModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\CI4\CI4\app\Controllers\User.php(21): App\Models\CompanyModel->getCompanyNames()
+#8 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(919): App\Controllers\User->index()
+#9 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CI4\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-06 03:41:07 --> Table 'kastam_bond.company' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `company`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\CompanyModel.php(17): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\User.php(21): App\Models\CompanyModel->getCompanyNames()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 03:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:41:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:41:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:47:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:49:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:49:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:50:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:51:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:52:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:53:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:56:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:57:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:57:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:58:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:58:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:58:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:29:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:34:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:38:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 05:02:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 05:02:11 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+DEBUG - 2023-11-06 05:02:15 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '4'
+INFO - 2023-11-06 06:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 06:24:29 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+DEBUG - 2023-11-06 06:24:53 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+DEBUG - 2023-11-06 06:24:57 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '4'
+INFO - 2023-11-06 06:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 06:26:55 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+CRITICAL - 2023-11-06 06:26:55 --> Undefined variable $members
+in APPPATH\Models\ProfileModel.php on line 112.
+ 1 APPPATH\Models\ProfileModel.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $members', 'C:\\xampp\\htdocs\\CI4\\CI4\\app\\Models\\ProfileModel.php', 112)
+ 2 APPPATH\Controllers\ProfilePermission.php(49): App\Models\ProfileModel->getMembersByProfile('1')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-11-06 06:27:02 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+CRITICAL - 2023-11-06 06:27:02 --> Undefined variable $members
+in APPPATH\Models\ProfileModel.php on line 112.
+ 1 APPPATH\Models\ProfileModel.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $members', 'C:\\xampp\\htdocs\\CI4\\CI4\\app\\Models\\ProfileModel.php', 112)
+ 2 APPPATH\Controllers\ProfilePermission.php(49): App\Models\ProfileModel->getMembersByProfile('2')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 06:27:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 06:27:21 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+INFO - 2023-11-06 06:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 06:33:35 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+DEBUG - 2023-11-06 06:33:39 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '3'
+INFO - 2023-11-06 06:34:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 06:34:40 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+INFO - 2023-11-06 06:39:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 06:39:10 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+DEBUG - 2023-11-06 06:39:13 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '3'
+INFO - 2023-11-06 06:40:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 06:40:03 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '3'
+INFO - 2023-11-06 06:42:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 06:42:39 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+DEBUG - 2023-11-06 06:42:42 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '4'
+DEBUG - 2023-11-06 06:42:44 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '3'
+DEBUG - 2023-11-06 06:43:44 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+DEBUG - 2023-11-06 06:43:59 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '3'
+INFO - 2023-11-06 06:44:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 06:44:44 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+INFO - 2023-11-06 06:45:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 06:45:12 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+INFO - 2023-11-06 06:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 06:47:45 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+INFO - 2023-11-06 06:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 06:48:47 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+DEBUG - 2023-11-06 06:48:50 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '3'
+DEBUG - 2023-11-06 06:48:54 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+INFO - 2023-11-06 06:49:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-06 06:49:36 --> mysqli_sql_exception: Table 'kastam_bond.company' doesn't exist in C:\xampp\htdocs\CI4\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\CI4\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\CI4\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\CI4\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CI4\CI4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\CI4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\CI4\CI4\app\Models\CompanyModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\CI4\CI4\app\Controllers\User.php(21): App\Models\CompanyModel->getCompanyNames()
+#8 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(919): App\Controllers\User->index()
+#9 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CI4\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-06 06:49:36 --> Table 'kastam_bond.company' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `company`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\CompanyModel.php(17): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\User.php(21): App\Models\CompanyModel->getCompanyNames()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 06:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 06:51:17 --> Invalid file: "user/edit.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/edit.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/edit', [], true)
+ 3 APPPATH\Controllers\User.php(104): view('user/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->edit('87')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 06:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:51:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 06:51:26 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+DEBUG - 2023-11-06 06:53:42 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+DEBUG - 2023-11-06 06:53:45 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '4'
+DEBUG - 2023-11-06 06:53:48 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '3'
+INFO - 2023-11-06 07:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 07:12:09 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+DEBUG - 2023-11-06 07:12:16 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+INFO - 2023-11-06 07:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 07:12:58 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+DEBUG - 2023-11-06 07:13:04 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+INFO - 2023-11-06 07:14:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 07:14:47 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+INFO - 2023-11-06 07:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 07:22:32 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+INFO - 2023-11-06 07:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 07:22:46 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+INFO - 2023-11-06 07:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 07:23:34 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+INFO - 2023-11-06 07:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 07:40:24 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+DEBUG - 2023-11-06 07:40:27 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+INFO - 2023-11-06 07:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 07:40:38 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+INFO - 2023-11-06 07:53:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 07:53:58 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+ERROR - 2023-11-06 07:54:01 --> mysqli_sql_exception: Table 'kastam_bond.profileedit' doesn't exist in C:\xampp\htdocs\CI4\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\CI4\app\Models\ProfileModel.php(150): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\CI4\app\Controllers\ProfilePermission.php(86): App\Models\ProfileModel->updateStatusInDatabase('1', 'Edit', '1')
+#6 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#7 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#8 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI4\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-06 07:54:01 --> Table 'kastam_bond.profileedit' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profileedit` SET `edit_profileedit` = :edit_profileedit:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Models\ProfileModel.php(150): CodeIgniter\Database\BaseBuilder->update()
+ 3 APPPATH\Controllers\ProfilePermission.php(86): App\Models\ProfileModel->updateStatusInDatabase('1', 'Edit', '1')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:54:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 07:54:07 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+ERROR - 2023-11-06 07:54:08 --> mysqli_sql_exception: Table 'kastam_bond.profileedit' doesn't exist in C:\xampp\htdocs\CI4\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\CI4\app\Models\ProfileModel.php(150): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\CI4\app\Controllers\ProfilePermission.php(86): App\Models\ProfileModel->updateStatusInDatabase('1', 'Edit', '1')
+#6 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#7 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#8 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI4\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-06 07:54:08 --> Table 'kastam_bond.profileedit' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profileedit` SET `edit_profileedit` = :edit_profileedit:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Models\ProfileModel.php(150): CodeIgniter\Database\BaseBuilder->update()
+ 3 APPPATH\Controllers\ProfilePermission.php(86): App\Models\ProfileModel->updateStatusInDatabase('1', 'Edit', '1')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 07:55:10 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+ERROR - 2023-11-06 07:55:12 --> mysqli_sql_exception: Table 'kastam_bond.profileedit' doesn't exist in C:\xampp\htdocs\CI4\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\CI4\app\Models\ProfileModel.php(152): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\CI4\app\Controllers\ProfilePermission.php(86): App\Models\ProfileModel->updateStatusInDatabase('1', 'Edit', '1')
+#6 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#7 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#8 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI4\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-06 07:55:12 --> Table 'kastam_bond.profileedit' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profileedit` SET `edit_profileedit` = :edit_profileedit:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Models\ProfileModel.php(152): CodeIgniter\Database\BaseBuilder->update()
+ 3 APPPATH\Controllers\ProfilePermission.php(86): App\Models\ProfileModel->updateStatusInDatabase('1', 'Edit', '1')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 08:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 08:04:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 08:04:11 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+CRITICAL - 2023-11-06 08:04:16 --> Undefined property: App\Controllers\ProfilePermission::$db
+in APPPATH\Controllers\ProfilePermission.php on line 92.
+ 1 APPPATH\Controllers\ProfilePermission.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ProfilePermission::$db', 'C:\\xampp\\htdocs\\CI4\\CI4\\app\\Controllers\\ProfilePermission.php', 92)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 08:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 08:04:46 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+CRITICAL - 2023-11-06 08:04:49 --> Undefined property: App\Controllers\ProfilePermission::$db
+in APPPATH\Controllers\ProfilePermission.php on line 102.
+ 1 APPPATH\Controllers\ProfilePermission.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ProfilePermission::$db', 'C:\\xampp\\htdocs\\CI4\\CI4\\app\\Controllers\\ProfilePermission.php', 102)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 08:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 08:04:54 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+DEBUG - 2023-11-06 08:06:48 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+INFO - 2023-11-06 08:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 08:07:21 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+DEBUG - 2023-11-06 08:07:25 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '3'
+INFO - 2023-11-06 08:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 08:08:12 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+DEBUG - 2023-11-06 08:08:18 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+CRITICAL - 2023-11-06 08:08:39 --> Undefined property: App\Controllers\ProfilePermission::$db
+in APPPATH\Controllers\ProfilePermission.php on line 102.
+ 1 APPPATH\Controllers\ProfilePermission.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ProfilePermission::$db', 'C:\\xampp\\htdocs\\CI4\\CI4\\app\\Controllers\\ProfilePermission.php', 102)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 08:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 08:09:52 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+INFO - 2023-11-06 08:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 08:10:00 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+INFO - 2023-11-06 08:10:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 08:10:45 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+INFO - 2023-11-06 08:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 08:12:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 08:12:43 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+INFO - 2023-11-06 08:12:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 08:12:51 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+INFO - 2023-11-06 08:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 08:13:05 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+INFO - 2023-11-06 08:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 08:21:47 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+INFO - 2023-11-06 08:21:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 08:21:53 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+INFO - 2023-11-06 08:23:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 08:23:26 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+INFO - 2023-11-06 08:23:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 08:23:43 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+INFO - 2023-11-06 08:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 08:32:58 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+INFO - 2023-11-06 08:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 08:33:17 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+INFO - 2023-11-06 08:35:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 08:35:43 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+DEBUG - 2023-11-06 08:37:55 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+INFO - 2023-11-06 08:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 08:55:36 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+DEBUG - 2023-11-06 08:56:15 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '4'
+DEBUG - 2023-11-06 08:56:17 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+ERROR - 2023-11-06 09:07:32 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'kastam_bond', 3306, '', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CI4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\CI4\app\Models\ProfileModel.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(31): App\Models\ProfileModel->getAllProfiles()
+#8 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->index()
+#9 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#10 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\CI4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\CI4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\CI4\app\Models\ProfileModel.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(31): App\Models\ProfileModel->getAllProfiles()
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->index()
+#8 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#9 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-06 09:07:32 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `profile`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\ProfileModel.php(14): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\ProfilePermission.php(31): App\Models\ProfileModel->getAllProfiles()
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 09:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-06 09:09:04 --> mysqli_sql_exception: Unknown column 'profile_id' in 'where clause' in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Models\ProfileModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(52): App\Models\ProfileModel->getBondtransactionPermissionsByProfile('1')
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1')
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#8 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+DEBUG - 2023-11-06 09:09:04 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+CRITICAL - 2023-11-06 09:09:04 --> Unknown column 'profile_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profileBondTrans_id`, `add_transaction`, `view_transaction`, `edit_transaction`, `delete_transaction`
+FROM `profilebondtransaction`
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Models\ProfileModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ProfilePermission.php(52): App\Models\ProfileModel->getBondtransactionPermissionsByProfile('1')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-11-06 09:09:07 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+ERROR - 2023-11-06 09:09:07 --> mysqli_sql_exception: Unknown column 'profile_id' in 'where clause' in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Models\ProfileModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(52): App\Models\ProfileModel->getBondtransactionPermissionsByProfile('2')
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2')
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#8 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-06 09:09:07 --> Unknown column 'profile_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profileBondTrans_id`, `add_transaction`, `view_transaction`, `edit_transaction`, `delete_transaction`
+FROM `profilebondtransaction`
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Models\ProfileModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ProfilePermission.php(52): App\Models\ProfileModel->getBondtransactionPermissionsByProfile('2')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-11-06 09:09:09 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '3'
+ERROR - 2023-11-06 09:09:09 --> mysqli_sql_exception: Unknown column 'profile_id' in 'where clause' in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Models\ProfileModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(52): App\Models\ProfileModel->getBondtransactionPermissionsByProfile('3')
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('3')
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#8 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-06 09:09:09 --> Unknown column 'profile_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profileBondTrans_id`, `add_transaction`, `view_transaction`, `edit_transaction`, `delete_transaction`
+FROM `profilebondtransaction`
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Models\ProfileModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ProfilePermission.php(52): App\Models\ProfileModel->getBondtransactionPermissionsByProfile('3')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('3')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-11-06 09:09:10 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+ERROR - 2023-11-06 09:09:10 --> mysqli_sql_exception: Unknown column 'profile_id' in 'where clause' in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Models\ProfileModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(52): App\Models\ProfileModel->getBondtransactionPermissionsByProfile('1')
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1')
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#8 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-06 09:09:10 --> Unknown column 'profile_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profileBondTrans_id`, `add_transaction`, `view_transaction`, `edit_transaction`, `delete_transaction`
+FROM `profilebondtransaction`
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Models\ProfileModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ProfilePermission.php(52): App\Models\ProfileModel->getBondtransactionPermissionsByProfile('1')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-06 09:09:14 --> mysqli_sql_exception: Unknown column 'profile_id' in 'where clause' in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Models\ProfileModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(52): App\Models\ProfileModel->getBondtransactionPermissionsByProfile('4')
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('4')
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#8 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-06 09:09:14 --> Unknown column 'profile_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profileBondTrans_id`, `add_transaction`, `view_transaction`, `edit_transaction`, `delete_transaction`
+FROM `profilebondtransaction`
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Models\ProfileModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ProfilePermission.php(52): App\Models\ProfileModel->getBondtransactionPermissionsByProfile('4')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('4')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-11-06 09:09:14 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '4'
+DEBUG - 2023-11-06 09:14:45 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '4'
+ERROR - 2023-11-06 09:14:45 --> mysqli_sql_exception: Unknown column 'profile_id' in 'where clause' in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Models\ProfileModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(52): App\Models\ProfileModel->getBondtransactionPermissionsByProfile('4')
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('4')
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#8 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-06 09:14:45 --> Unknown column 'profile_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profileBondTrans_id`, `add_transaction`, `view_transaction`, `edit_transaction`, `delete_transaction`
+FROM `profilebondtransaction`
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Models\ProfileModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ProfilePermission.php(52): App\Models\ProfileModel->getBondtransactionPermissionsByProfile('4')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('4')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-11-06 09:14:46 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+ERROR - 2023-11-06 09:14:46 --> mysqli_sql_exception: Unknown column 'profile_id' in 'where clause' in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Models\ProfileModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(52): App\Models\ProfileModel->getBondtransactionPermissionsByProfile('2')
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2')
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#8 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-06 09:14:46 --> Unknown column 'profile_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profileBondTrans_id`, `add_transaction`, `view_transaction`, `edit_transaction`, `delete_transaction`
+FROM `profilebondtransaction`
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Models\ProfileModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ProfilePermission.php(52): App\Models\ProfileModel->getBondtransactionPermissionsByProfile('2')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-11-06 09:14:48 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+ERROR - 2023-11-06 09:14:48 --> mysqli_sql_exception: Unknown column 'profile_id' in 'where clause' in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Models\ProfileModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(52): App\Models\ProfileModel->getBondtransactionPermissionsByProfile('1')
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1')
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#8 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-06 09:14:48 --> Unknown column 'profile_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profileBondTrans_id`, `add_transaction`, `view_transaction`, `edit_transaction`, `delete_transaction`
+FROM `profilebondtransaction`
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Models\ProfileModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ProfilePermission.php(52): App\Models\ProfileModel->getBondtransactionPermissionsByProfile('1')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 09:16:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 09:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 09:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 09:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 09:17:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 09:17:28 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+ERROR - 2023-11-06 09:17:28 --> mysqli_sql_exception: Unknown column 'profile_id' in 'where clause' in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Models\ProfileModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(52): App\Models\ProfileModel->getBondtransactionPermissionsByProfile('1')
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1')
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#8 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-06 09:17:28 --> Unknown column 'profile_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profileBondTrans_id`, `add_transaction`, `view_transaction`, `edit_transaction`, `delete_transaction`
+FROM `profilebondtransaction`
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Models\ProfileModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ProfilePermission.php(52): App\Models\ProfileModel->getBondtransactionPermissionsByProfile('1')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-11-06 09:17:30 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+ERROR - 2023-11-06 09:17:30 --> mysqli_sql_exception: Unknown column 'profile_id' in 'where clause' in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Models\ProfileModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(52): App\Models\ProfileModel->getBondtransactionPermissionsByProfile('2')
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2')
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#8 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-06 09:17:30 --> Unknown column 'profile_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profileBondTrans_id`, `add_transaction`, `view_transaction`, `edit_transaction`, `delete_transaction`
+FROM `profilebondtransaction`
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Models\ProfileModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ProfilePermission.php(52): App\Models\ProfileModel->getBondtransactionPermissionsByProfile('2')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-11-06 09:17:31 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+ERROR - 2023-11-06 09:17:31 --> mysqli_sql_exception: Unknown column 'profile_id' in 'where clause' in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Models\ProfileModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(52): App\Models\ProfileModel->getBondtransactionPermissionsByProfile('1')
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1')
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#8 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-06 09:17:31 --> Unknown column 'profile_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profileBondTrans_id`, `add_transaction`, `view_transaction`, `edit_transaction`, `delete_transaction`
+FROM `profilebondtransaction`
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Models\ProfileModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ProfilePermission.php(52): App\Models\ProfileModel->getBondtransactionPermissionsByProfile('1')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-11-06 09:23:22 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+ERROR - 2023-11-06 09:23:22 --> mysqli_sql_exception: Unknown column 'profile_id' in 'where clause' in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Models\ProfileModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(52): App\Models\ProfileModel->getBondtransactionPermissionsByProfile('2')
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2')
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#8 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-06 09:23:22 --> Unknown column 'profile_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profileBondTrans_id`, `add_transaction`, `view_transaction`, `edit_transaction`, `delete_transaction`
+FROM `profilebondtransaction`
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Models\ProfileModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ProfilePermission.php(52): App\Models\ProfileModel->getBondtransactionPermissionsByProfile('2')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-11-06 09:23:49 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+ERROR - 2023-11-06 09:23:49 --> mysqli_sql_exception: Unknown column 'profile_id' in 'where clause' in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Models\ProfileModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(52): App\Models\ProfileModel->getBondtransactionPermissionsByProfile('1')
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1')
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#8 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-06 09:23:49 --> Unknown column 'profile_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profileBondTrans_id`, `add_transaction`, `view_transaction`, `edit_transaction`, `delete_transaction`
+FROM `profilebondtransaction`
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Models\ProfileModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ProfilePermission.php(52): App\Models\ProfileModel->getBondtransactionPermissionsByProfile('1')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-11-06 09:23:53 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '3'
+ERROR - 2023-11-06 09:23:53 --> mysqli_sql_exception: Unknown column 'profile_id' in 'where clause' in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Models\ProfileModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(52): App\Models\ProfileModel->getBondtransactionPermissionsByProfile('3')
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('3')
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#8 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-06 09:23:53 --> Unknown column 'profile_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profileBondTrans_id`, `add_transaction`, `view_transaction`, `edit_transaction`, `delete_transaction`
+FROM `profilebondtransaction`
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Models\ProfileModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ProfilePermission.php(52): App\Models\ProfileModel->getBondtransactionPermissionsByProfile('3')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('3')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-11-06 09:23:55 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '4'
+ERROR - 2023-11-06 09:23:56 --> mysqli_sql_exception: Unknown column 'profile_id' in 'where clause' in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Models\ProfileModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(52): App\Models\ProfileModel->getBondtransactionPermissionsByProfile('4')
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('4')
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#8 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-06 09:23:56 --> Unknown column 'profile_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profileBondTrans_id`, `add_transaction`, `view_transaction`, `edit_transaction`, `delete_transaction`
+FROM `profilebondtransaction`
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Models\ProfileModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ProfilePermission.php(52): App\Models\ProfileModel->getBondtransactionPermissionsByProfile('4')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('4')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 09:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 09:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 09:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 09:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 09:29:13 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+DEBUG - 2023-11-06 09:29:15 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+INFO - 2023-11-06 09:29:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-06 09:29:34 --> mysqli_sql_exception: Table 'kastam_bond.company' doesn't exist in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CI4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\CI4\app\Models\CompanyModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\CI4\app\Controllers\User.php(21): App\Models\CompanyModel->getCompanyNames()
+#8 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\User->index()
+#9 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-06 09:29:34 --> Table 'kastam_bond.company' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `company`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\CompanyModel.php(17): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\User.php(21): App\Models\CompanyModel->getCompanyNames()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 09:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 09:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 09:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 09:39:44 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+INFO - 2023-11-06 09:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 09:41:00 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+DEBUG - 2023-11-06 09:41:03 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+INFO - 2023-11-06 09:41:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 09:41:19 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+DEBUG - 2023-11-06 09:41:20 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '3'
+DEBUG - 2023-11-06 09:41:22 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+INFO - 2023-11-06 09:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 09:41:42 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+DEBUG - 2023-11-06 09:41:43 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+INFO - 2023-11-06 09:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-06 09:41:52 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'

@@ -1,0 +1,309 @@
+INFO - 2023-10-30 01:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 01:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 02:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 02:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 02:13:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 02:14:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-30 02:14:27 --> mysqli_sql_exception: Unknown column 'profile_id' in 'where clause' in C:\xampp\htdocs\CI4\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `profile...', 0)
+#1 C:\xampp\htdocs\CI4\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile...')
+#2 C:\xampp\htdocs\CI4\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile...')
+#3 C:\xampp\htdocs\CI4\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\CI4\app\Models\ProfileModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\CI4\app\Controllers\ProfilePermission.php(29): App\Models\ProfileModel->getVendorPermissionsByProfile('1')
+#6 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1')
+#7 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#8 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI4\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-30 02:14:27 --> Unknown column 'profile_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profilevendor_id`, `add_vendor`, `view_vendor`, `edit_vendor`, `delete_vendor`
+FROM `profilevendor`
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Models\ProfileModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ProfilePermission.php(29): App\Models\ProfileModel->getVendorPermissionsByProfile('1')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-30 02:14:29 --> mysqli_sql_exception: Unknown column 'profile_id' in 'where clause' in C:\xampp\htdocs\CI4\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `profile...', 0)
+#1 C:\xampp\htdocs\CI4\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile...')
+#2 C:\xampp\htdocs\CI4\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile...')
+#3 C:\xampp\htdocs\CI4\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\CI4\app\Models\ProfileModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\CI4\app\Controllers\ProfilePermission.php(29): App\Models\ProfileModel->getVendorPermissionsByProfile('1')
+#6 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1')
+#7 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#8 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI4\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-30 02:14:29 --> Unknown column 'profile_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profilevendor_id`, `add_vendor`, `view_vendor`, `edit_vendor`, `delete_vendor`
+FROM `profilevendor`
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Models\ProfileModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ProfilePermission.php(29): App\Models\ProfileModel->getVendorPermissionsByProfile('1')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 02:14:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 02:14:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 02:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-30 02:14:59 --> mysqli_sql_exception: Unknown column 'profile_id' in 'where clause' in C:\xampp\htdocs\CI4\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `profile...', 0)
+#1 C:\xampp\htdocs\CI4\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile...')
+#2 C:\xampp\htdocs\CI4\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile...')
+#3 C:\xampp\htdocs\CI4\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\CI4\app\Models\ProfileModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\CI4\app\Controllers\ProfilePermission.php(29): App\Models\ProfileModel->getVendorPermissionsByProfile('1')
+#6 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1')
+#7 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#8 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI4\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-30 02:14:59 --> Unknown column 'profile_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profilevendor_id`, `add_vendor`, `view_vendor`, `edit_vendor`, `delete_vendor`
+FROM `profilevendor`
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Models\ProfileModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ProfilePermission.php(29): App\Models\ProfileModel->getVendorPermissionsByProfile('1')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-30 02:15:00 --> mysqli_sql_exception: Unknown column 'profile_id' in 'where clause' in C:\xampp\htdocs\CI4\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `profile...', 0)
+#1 C:\xampp\htdocs\CI4\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile...')
+#2 C:\xampp\htdocs\CI4\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile...')
+#3 C:\xampp\htdocs\CI4\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\CI4\app\Models\ProfileModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\CI4\app\Controllers\ProfilePermission.php(29): App\Models\ProfileModel->getVendorPermissionsByProfile('2')
+#6 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2')
+#7 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#8 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI4\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-30 02:15:00 --> Unknown column 'profile_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profilevendor_id`, `add_vendor`, `view_vendor`, `edit_vendor`, `delete_vendor`
+FROM `profilevendor`
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Models\ProfileModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ProfilePermission.php(29): App\Models\ProfileModel->getVendorPermissionsByProfile('2')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-30 02:15:01 --> mysqli_sql_exception: Unknown column 'profile_id' in 'where clause' in C:\xampp\htdocs\CI4\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `profile...', 0)
+#1 C:\xampp\htdocs\CI4\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile...')
+#2 C:\xampp\htdocs\CI4\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile...')
+#3 C:\xampp\htdocs\CI4\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\CI4\app\Models\ProfileModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\CI4\app\Controllers\ProfilePermission.php(29): App\Models\ProfileModel->getVendorPermissionsByProfile('4')
+#6 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('4')
+#7 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#8 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI4\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-30 02:15:01 --> Unknown column 'profile_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profilevendor_id`, `add_vendor`, `view_vendor`, `edit_vendor`, `delete_vendor`
+FROM `profilevendor`
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Models\ProfileModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ProfilePermission.php(29): App\Models\ProfileModel->getVendorPermissionsByProfile('4')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('4')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 02:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 02:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-30 02:15:07 --> mysqli_sql_exception: Unknown column 'profile_id' in 'where clause' in C:\xampp\htdocs\CI4\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `profile...', 0)
+#1 C:\xampp\htdocs\CI4\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile...')
+#2 C:\xampp\htdocs\CI4\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile...')
+#3 C:\xampp\htdocs\CI4\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\CI4\app\Models\ProfileModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\CI4\app\Controllers\ProfilePermission.php(29): App\Models\ProfileModel->getVendorPermissionsByProfile('1')
+#6 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1')
+#7 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#8 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI4\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-30 02:15:07 --> Unknown column 'profile_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profilevendor_id`, `add_vendor`, `view_vendor`, `edit_vendor`, `delete_vendor`
+FROM `profilevendor`
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Models\ProfileModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ProfilePermission.php(29): App\Models\ProfileModel->getVendorPermissionsByProfile('1')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 02:22:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-30 02:22:04 --> mysqli_sql_exception: Unknown column 'profile_id' in 'where clause' in C:\xampp\htdocs\CI4\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `profile...', 0)
+#1 C:\xampp\htdocs\CI4\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile...')
+#2 C:\xampp\htdocs\CI4\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile...')
+#3 C:\xampp\htdocs\CI4\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\CI4\app\Models\ProfileModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\CI4\app\Controllers\ProfilePermission.php(29): App\Models\ProfileModel->getVendorPermissionsByProfile('1')
+#6 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1')
+#7 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#8 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI4\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-30 02:22:04 --> Unknown column 'profile_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profilevendor_id`, `add_vendor`, `view_vendor`, `edit_vendor`, `delete_vendor`
+FROM `profilevendor`
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Models\ProfileModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ProfilePermission.php(29): App\Models\ProfileModel->getVendorPermissionsByProfile('1')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-30 02:22:05 --> mysqli_sql_exception: Unknown column 'profile_id' in 'where clause' in C:\xampp\htdocs\CI4\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `profile...', 0)
+#1 C:\xampp\htdocs\CI4\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile...')
+#2 C:\xampp\htdocs\CI4\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile...')
+#3 C:\xampp\htdocs\CI4\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\CI4\app\Models\ProfileModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\CI4\app\Controllers\ProfilePermission.php(29): App\Models\ProfileModel->getVendorPermissionsByProfile('1')
+#6 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1')
+#7 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#8 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI4\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-30 02:22:05 --> Unknown column 'profile_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profilevendor_id`, `add_vendor`, `view_vendor`, `edit_vendor`, `delete_vendor`
+FROM `profilevendor`
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Models\ProfileModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ProfilePermission.php(29): App\Models\ProfileModel->getVendorPermissionsByProfile('1')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-30 02:22:06 --> mysqli_sql_exception: Unknown column 'profile_id' in 'where clause' in C:\xampp\htdocs\CI4\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `profile...', 0)
+#1 C:\xampp\htdocs\CI4\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile...')
+#2 C:\xampp\htdocs\CI4\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile...')
+#3 C:\xampp\htdocs\CI4\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\CI4\app\Models\ProfileModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\CI4\app\Controllers\ProfilePermission.php(29): App\Models\ProfileModel->getVendorPermissionsByProfile('1')
+#6 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1')
+#7 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#8 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI4\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-30 02:22:06 --> Unknown column 'profile_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profilevendor_id`, `add_vendor`, `view_vendor`, `edit_vendor`, `delete_vendor`
+FROM `profilevendor`
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Models\ProfileModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ProfilePermission.php(29): App\Models\ProfileModel->getVendorPermissionsByProfile('1')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-30 02:22:07 --> mysqli_sql_exception: Unknown column 'profile_id' in 'where clause' in C:\xampp\htdocs\CI4\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `profile...', 0)
+#1 C:\xampp\htdocs\CI4\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile...')
+#2 C:\xampp\htdocs\CI4\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile...')
+#3 C:\xampp\htdocs\CI4\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\CI4\app\Models\ProfileModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\CI4\app\Controllers\ProfilePermission.php(29): App\Models\ProfileModel->getVendorPermissionsByProfile('1')
+#6 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1')
+#7 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#8 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI4\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-30 02:22:07 --> Unknown column 'profile_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profilevendor_id`, `add_vendor`, `view_vendor`, `edit_vendor`, `delete_vendor`
+FROM `profilevendor`
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Models\ProfileModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ProfilePermission.php(29): App\Models\ProfileModel->getVendorPermissionsByProfile('1')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-30 02:22:08 --> mysqli_sql_exception: Unknown column 'profile_id' in 'where clause' in C:\xampp\htdocs\CI4\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `profile...', 0)
+#1 C:\xampp\htdocs\CI4\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile...')
+#2 C:\xampp\htdocs\CI4\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile...')
+#3 C:\xampp\htdocs\CI4\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\CI4\app\Models\ProfileModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\CI4\app\Controllers\ProfilePermission.php(29): App\Models\ProfileModel->getVendorPermissionsByProfile('1')
+#6 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1')
+#7 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#8 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI4\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-30 02:22:08 --> Unknown column 'profile_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profilevendor_id`, `add_vendor`, `view_vendor`, `edit_vendor`, `delete_vendor`
+FROM `profilevendor`
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Models\ProfileModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ProfilePermission.php(29): App\Models\ProfileModel->getVendorPermissionsByProfile('1')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-30 02:22:09 --> mysqli_sql_exception: Unknown column 'profile_id' in 'where clause' in C:\xampp\htdocs\CI4\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `profile...', 0)
+#1 C:\xampp\htdocs\CI4\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile...')
+#2 C:\xampp\htdocs\CI4\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile...')
+#3 C:\xampp\htdocs\CI4\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\CI4\app\Models\ProfileModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\CI4\app\Controllers\ProfilePermission.php(29): App\Models\ProfileModel->getVendorPermissionsByProfile('1')
+#6 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1')
+#7 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#8 C:\xampp\htdocs\CI4\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI4\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-30 02:22:09 --> Unknown column 'profile_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profilevendor_id`, `add_vendor`, `view_vendor`, `edit_vendor`, `delete_vendor`
+FROM `profilevendor`
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Models\ProfileModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ProfilePermission.php(29): App\Models\ProfileModel->getVendorPermissionsByProfile('1')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 02:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 02:27:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 02:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 02:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 02:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 02:41:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 02:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 07:28:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 07:28:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,36 @@
+CRITICAL - 2023-10-10 04:45:07 --> include(includes/header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\pages\addnewlot.php on line 294.
+ 1 APPPATH\Views\pages\addnewlot.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(includes/header.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\CI4\\app\\Views\\pages\\addnewlot.php', 294)
+ 2 APPPATH\Views\pages\addnewlot.php(294): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\CI4\\app\\Views\\pages\\addnewlot.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/addnewlot', [], true)
+ 6 APPPATH\Controllers\Lot.php(9): view('pages/addnewlot')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Lot->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lot))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 06:59:01 --> include(includes/header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\pages\addnewlot.php on line 40.
+ 1 APPPATH\Views\pages\addnewlot.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(includes/header.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\CI4\\app\\Views\\pages\\addnewlot.php', 40)
+ 2 APPPATH\Views\pages\addnewlot.php(40): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\CI4\\app\\Views\\pages\\addnewlot.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/addnewlot', [], true)
+ 6 APPPATH\Controllers\Lot.php(9): view('pages/addnewlot')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Lot->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lot))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 07:33:14 --> include(includes/header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\pages\addnewlot.php on line 40.
+ 1 APPPATH\Views\pages\addnewlot.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(includes/header.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\CI4\\app\\Views\\pages\\addnewlot.php', 40)
+ 2 APPPATH\Views\pages\addnewlot.php(40): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\CI4\\app\\Views\\pages\\addnewlot.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/addnewlot', [], true)
+ 6 APPPATH\Controllers\Lot.php(9): view('pages/addnewlot')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Lot->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lot))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,1640 @@
+INFO - 2023-11-10 01:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 01:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-10 01:37:19 --> mysqli_sql_exception: Table 'kastam_bond.company' doesn't exist in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CI4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\CI4\app\Models\CompanyModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\CI4\app\Controllers\User.php(21): App\Models\CompanyModel->getCompanyNames()
+#8 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\User->index()
+#9 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-10 01:37:19 --> Table 'kastam_bond.company' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `company`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\CompanyModel.php(17): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\User.php(21): App\Models\CompanyModel->getCompanyNames()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 01:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 01:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 01:37:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 01:37:36 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+ERROR - 2023-11-10 01:37:38 --> mysqli_sql_exception: Table 'kastam_bond.profileview' doesn't exist in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(102): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 01:37:38 --> Table 'kastam_bond.profileview' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profileview` SET `view_profileview` = :view_profileview:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(102): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 01:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 01:58:09 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+DEBUG - 2023-11-10 01:58:12 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+ERROR - 2023-11-10 01:58:13 --> mysqli_sql_exception: Table 'kastam_bond.profiledelete' doesn't exist in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(102): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 01:58:13 --> Table 'kastam_bond.profiledelete' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profiledelete` SET `delete_profiledelete` = :delete_profiledelete:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(102): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 02:57:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 02:57:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 02:57:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 02:57:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 02:57:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 02:57:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-10 02:58:42 --> mysqli_sql_exception: Table 'kastam_bond.company' doesn't exist in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CI4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\CI4\app\Models\CompanyModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\CI4\app\Controllers\User.php(21): App\Models\CompanyModel->getCompanyNames()
+#8 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\User->index()
+#9 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-10 02:58:42 --> Table 'kastam_bond.company' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `company`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\CompanyModel.php(17): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\User.php(21): App\Models\CompanyModel->getCompanyNames()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 02:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-10 02:58:49 --> mysqli_sql_exception: Table 'kastam_bond.company' doesn't exist in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CI4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\CI4\app\Models\CompanyModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\CI4\app\Controllers\User.php(21): App\Models\CompanyModel->getCompanyNames()
+#8 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\User->index()
+#9 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-10 02:58:49 --> Table 'kastam_bond.company' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `company`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\CompanyModel.php(17): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\User.php(21): App\Models\CompanyModel->getCompanyNames()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 02:58:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 02:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 02:58:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 02:59:01 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+DEBUG - 2023-11-10 02:59:02 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+ERROR - 2023-11-10 02:59:06 --> mysqli_sql_exception: Table 'kastam_bond.profiledelete' doesn't exist in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(97): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 02:59:06 --> Table 'kastam_bond.profiledelete' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profiledelete` SET `delete_profiledelete` = :delete_profiledelete:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(97): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 03:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 03:19:05 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+DEBUG - 2023-11-10 03:19:07 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+ERROR - 2023-11-10 03:19:11 --> mysqli_sql_exception: Table 'kastam_bond.profiledelete' doesn't exist in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(97): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 03:19:11 --> Table 'kastam_bond.profiledelete' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profiledelete` SET `delete_profiledelete` = :delete_profiledelete:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(97): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 03:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 03:20:31 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+DEBUG - 2023-11-10 03:20:33 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+INFO - 2023-11-10 03:20:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 03:20:46 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+INFO - 2023-11-10 03:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 03:21:30 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+DEBUG - 2023-11-10 03:21:33 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+ERROR - 2023-11-10 03:21:35 --> mysqli_sql_exception: Table 'kastam_bond.profiledelete' doesn't exist in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(97): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 03:21:35 --> Table 'kastam_bond.profiledelete' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profiledelete` SET `delete_profiledelete` = :delete_profiledelete:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(97): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-10 03:44:58 --> mysqli_sql_exception: Table 'kastam_bond.company' doesn't exist in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CI4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\CI4\app\Models\CompanyModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\CI4\app\Controllers\User.php(21): App\Models\CompanyModel->getCompanyNames()
+#8 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\User->index()
+#9 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-10 03:44:58 --> Table 'kastam_bond.company' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `company`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\CompanyModel.php(17): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\User.php(21): App\Models\CompanyModel->getCompanyNames()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 03:45:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 03:45:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 03:45:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 03:45:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 03:45:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 04:00:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 04:00:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 04:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 04:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 04:38:44 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '3'
+DEBUG - 2023-11-10 04:38:48 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+ERROR - 2023-11-10 04:38:48 --> mysqli_sql_exception: Table 'kastam_bond.profiledelete' doesn't exist in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(97): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 04:38:48 --> Table 'kastam_bond.profiledelete' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profiledelete` SET `delete_profiledelete` = :delete_profiledelete:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(97): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 04:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 04:39:41 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+ERROR - 2023-11-10 04:39:42 --> mysqli_sql_exception: Table 'kastam_bond.profiledelete' doesn't exist in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(97): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 04:39:42 --> Table 'kastam_bond.profiledelete' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profiledelete` SET `delete_profiledelete` = :delete_profiledelete:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(97): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 04:40:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 04:40:48 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+ERROR - 2023-11-10 04:40:49 --> mysqli_sql_exception: Table 'kastam_bond.profiledelete' doesn't exist in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(97): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 04:40:49 --> Table 'kastam_bond.profiledelete' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profiledelete` SET `delete_profiledelete` = :delete_profiledelete:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(97): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-10 04:40:55 --> mysqli_sql_exception: Table 'kastam_bond.company' doesn't exist in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CI4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\CI4\app\Models\CompanyModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\CI4\app\Controllers\User.php(21): App\Models\CompanyModel->getCompanyNames()
+#8 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\User->index()
+#9 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-10 04:40:55 --> Table 'kastam_bond.company' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `company`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\CompanyModel.php(17): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\User.php(21): App\Models\CompanyModel->getCompanyNames()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-10 04:40:57 --> mysqli_sql_exception: Table 'kastam_bond.company' doesn't exist in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CI4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\CI4\app\Models\CompanyModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\CI4\app\Controllers\User.php(21): App\Models\CompanyModel->getCompanyNames()
+#8 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\User->index()
+#9 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-10 04:40:57 --> Table 'kastam_bond.company' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `company`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\CompanyModel.php(17): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\User.php(21): App\Models\CompanyModel->getCompanyNames()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 04:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 04:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 04:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 04:41:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 04:41:07 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+ERROR - 2023-11-10 04:41:08 --> mysqli_sql_exception: Table 'kastam_bond.profiledelete' doesn't exist in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(97): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 04:41:08 --> Table 'kastam_bond.profiledelete' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profiledelete` SET `delete_profiledelete` = :delete_profiledelete:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(97): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 04:45:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 04:46:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 04:46:19 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+ERROR - 2023-11-10 04:46:21 --> mysqli_sql_exception: Unknown column 'delete' in 'field list' in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(97): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 04:46:21 --> Unknown column 'delete' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile` SET `delete` = :delete:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(97): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 04:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 04:47:28 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+INFO - 2023-11-10 04:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 04:48:34 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+ERROR - 2023-11-10 04:48:35 --> mysqli_sql_exception: Table 'kastam_bond.delete_profiledelete' doesn't exist in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `delete_...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `delete_...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `delete_...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `delete_...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(97): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 04:48:35 --> Table 'kastam_bond.delete_profiledelete' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `delete_profiledelete` SET `delete` = :delete:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(97): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 04:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 04:52:21 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+ERROR - 2023-11-10 04:52:22 --> mysqli_sql_exception: Table 'kastam_bond.profiledeleteprofile' doesn't exist in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(97): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 04:52:22 --> Table 'kastam_bond.profiledeleteprofile' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profiledeleteprofile` SET `delete` = :delete:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(97): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 04:55:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 04:55:58 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+INFO - 2023-11-10 04:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 04:56:55 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+INFO - 2023-11-10 04:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 04:57:01 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+INFO - 2023-11-10 05:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 05:03:45 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+INFO - 2023-11-10 05:04:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 05:04:48 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+DEBUG - 2023-11-10 05:04:50 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+INFO - 2023-11-10 05:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 05:07:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 05:07:08 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+INFO - 2023-11-10 05:07:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 05:07:49 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+INFO - 2023-11-10 05:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 05:08:08 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+ERROR - 2023-11-10 05:08:09 --> mysqli_sql_exception: Table 'kastam_bond.profiledelete' doesn't exist in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(97): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 05:08:09 --> Table 'kastam_bond.profiledelete' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profiledelete` SET `delete` = :delete:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(97): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 06:51:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 06:51:41 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+INFO - 2023-11-10 07:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 07:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 07:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 07:53:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 07:56:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 08:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 08:00:16 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+INFO - 2023-11-10 08:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 08:11:15 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+INFO - 2023-11-10 08:13:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 08:13:27 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+ERROR - 2023-11-10 08:13:28 --> mysqli_sql_exception: Unknown column 'delete' in 'field list' in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(97): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 08:13:28 --> Unknown column 'delete' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profiledashboard` SET `delete` = :delete:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(97): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 08:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 08:21:18 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+CRITICAL - 2023-11-10 08:21:22 --> Unsupported operand types: string + string
+in APPPATH\Controllers\ProfilePermission.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-10 08:22:15 --> Unsupported operand types: string + string
+in APPPATH\Controllers\ProfilePermission.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 08:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 08:25:26 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+ERROR - 2023-11-10 08:25:27 --> mysqli_sql_exception: Unknown column 'delete_' in 'field list' in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(98): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 08:25:27 --> Unknown column 'delete_' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profiledashboard` SET `delete_` = :delete_:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(98): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 08:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 08:26:08 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+ERROR - 2023-11-10 08:26:08 --> mysqli_sql_exception: Unknown column 'delete_' in 'field list' in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(98): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 08:26:08 --> Unknown column 'delete_' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profiledashboard` SET `delete_` = :delete_:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(98): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 08:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 08:27:58 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+ERROR - 2023-11-10 08:27:59 --> mysqli_sql_exception: Unknown column 'delete_' in 'field list' in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(98): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 08:27:59 --> Unknown column 'delete_' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profiledashboard` SET `delete_` = :delete_:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(98): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 08:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 08:35:01 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+ERROR - 2023-11-10 08:35:03 --> mysqli_sql_exception: Unknown column 'delete_' in 'field list' in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 08:35:03 --> Unknown column 'delete_' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profiledashboard` SET `delete_` = :delete_:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 08:36:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 08:36:33 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+DEBUG - 2023-11-10 08:36:34 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+ERROR - 2023-11-10 08:36:36 --> mysqli_sql_exception: Unknown column 'delete_' in 'field list' in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(102): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 08:36:36 --> Unknown column 'delete_' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profiledashboard` SET `delete_` = :delete_:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(102): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 08:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 08:38:52 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+DEBUG - 2023-11-10 08:38:53 --> Constructed Column Name: delete_
+DEBUG - 2023-11-10 08:38:53 --> Update SQL Query: UPDATE `profiledashboard` SET `delete_` = '0'
+WHERE `profile_id` = '2'
+ERROR - 2023-11-10 08:38:53 --> mysqli_sql_exception: Unknown column 'delete_' in 'field list' in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(108): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 08:38:53 --> Unknown column 'delete_' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profiledashboard` SET `delete_` = :delete_:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(108): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 08:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 08:44:51 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+DEBUG - 2023-11-10 08:44:52 --> Constructed Column Name: delete_
+ERROR - 2023-11-10 08:44:52 --> mysqli_sql_exception: Unknown column 'delete_' in 'field list' in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 08:44:52 --> Unknown column 'delete_' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profiledashboard` SET `delete_` = :delete_:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-11-10 08:45:15 --> Constructed Column Name: delete_
+ERROR - 2023-11-10 08:45:15 --> mysqli_sql_exception: Unknown column 'delete_' in 'field list' in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 08:45:15 --> Unknown column 'delete_' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profiledashboard` SET `delete_` = :delete_:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 08:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 08:49:44 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+DEBUG - 2023-11-10 08:49:45 --> Constructed Column Name: delete_
+ERROR - 2023-11-10 08:49:45 --> mysqli_sql_exception: Unknown column 'delete_' in 'field list' in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 08:49:45 --> Unknown column 'delete_' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profiledashboard` SET `delete_` = :delete_:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 08:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 08:52:44 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+DEBUG - 2023-11-10 08:52:45 --> Constructed Column Name: delete_profiledashboard
+ERROR - 2023-11-10 08:52:45 --> mysqli_sql_exception: Unknown column 'delete_profiledashboard' in 'field list' in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 08:52:45 --> Unknown column 'delete_profiledashboard' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profiledashboard` SET `delete_profiledashboard` = :delete_profiledashboard:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 08:59:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-10 08:59:54 --> mysqli_sql_exception: Unknown column 'delete_dashboard' in 'field list' in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Models\ProfileModel.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(38): App\Models\ProfileModel->getDashboardPermissionsByProfile('2')
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2')
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#8 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-10 08:59:54 --> Unknown column 'delete_dashboard' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profiledashboard_id`, `add_dashboard`, `view_dashboard`, `edit_dashboard`, `delete_dashboard`
+FROM `profiledashboard`
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Models\ProfileModel.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ProfilePermission.php(38): App\Models\ProfileModel->getDashboardPermissionsByProfile('2')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-11-10 08:59:54 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+ERROR - 2023-11-10 09:00:03 --> mysqli_sql_exception: Unknown column 'delete_dashboard' in 'field list' in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Models\ProfileModel.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(38): App\Models\ProfileModel->getDashboardPermissionsByProfile('1')
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1')
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#8 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-10 09:00:03 --> Unknown column 'delete_dashboard' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profiledashboard_id`, `add_dashboard`, `view_dashboard`, `edit_dashboard`, `delete_dashboard`
+FROM `profiledashboard`
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Models\ProfileModel.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ProfilePermission.php(38): App\Models\ProfileModel->getDashboardPermissionsByProfile('1')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-11-10 09:00:03 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+INFO - 2023-11-10 09:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 09:00:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 09:00:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-10 09:00:51 --> mysqli_sql_exception: Unknown column 'delete_dashboard' in 'field list' in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Models\ProfileModel.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(38): App\Models\ProfileModel->getDashboardPermissionsByProfile('2')
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2')
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#8 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-10 09:00:51 --> Unknown column 'delete_dashboard' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profiledashboard_id`, `add_dashboard`, `view_dashboard`, `edit_dashboard`, `delete_dashboard`
+FROM `profiledashboard`
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Models\ProfileModel.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ProfilePermission.php(38): App\Models\ProfileModel->getDashboardPermissionsByProfile('2')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-11-10 09:00:51 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+INFO - 2023-11-10 09:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 09:01:16 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+DEBUG - 2023-11-10 09:01:18 --> Constructed Column Name: delete_profiledashboard
+DEBUG - 2023-11-10 09:01:18 --> Generated SQL Query: UPDATE `profiledashboard` SET `delete_profiledashboard` = '0'
+WHERE `profile_id` = '2'
+DEBUG - 2023-11-10 09:01:34 --> Constructed Column Name: view_profilevendor
+ERROR - 2023-11-10 09:01:35 --> mysqli_sql_exception: Unknown column 'view_profilevendor' in 'field list' in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 09:01:35 --> Unknown column 'view_profilevendor' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profilevendor` SET `view_profilevendor` = :view_profilevendor:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-11-10 09:01:40 --> Constructed Column Name: delete_profilevendor
+ERROR - 2023-11-10 09:01:40 --> mysqli_sql_exception: Unknown column 'delete_profilevendor' in 'field list' in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 09:01:40 --> Unknown column 'delete_profilevendor' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profilevendor` SET `delete_profilevendor` = :delete_profilevendor:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-11-10 09:01:44 --> Constructed Column Name: view_profiledashboard
+ERROR - 2023-11-10 09:01:44 --> mysqli_sql_exception: Unknown column 'view_profiledashboard' in 'field list' in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 09:01:44 --> Unknown column 'view_profiledashboard' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profiledashboard` SET `view_profiledashboard` = :view_profiledashboard:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-11-10 09:01:47 --> Constructed Column Name: view_profiledashboard
+ERROR - 2023-11-10 09:01:47 --> mysqli_sql_exception: Unknown column 'view_profiledashboard' in 'field list' in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 09:01:47 --> Unknown column 'view_profiledashboard' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profiledashboard` SET `view_profiledashboard` = :view_profiledashboard:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-11-10 09:01:51 --> Constructed Column Name: delete_profiledashboard
+DEBUG - 2023-11-10 09:01:51 --> Generated SQL Query: UPDATE `profiledashboard` SET `delete_profiledashboard` = '1'
+WHERE `profile_id` = '2'
+INFO - 2023-11-10 09:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 09:13:09 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+DEBUG - 2023-11-10 09:13:13 --> Constructed Column Name: view_
+ERROR - 2023-11-10 09:13:13 --> mysqli_sql_exception: Unknown column 'view_' in 'field list' in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 09:13:13 --> Unknown column 'view_' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profiledashboard` SET `view_` = :view_:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 09:15:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 09:16:01 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+DEBUG - 2023-11-10 09:16:02 --> Constructed Column Name: _view
+ERROR - 2023-11-10 09:16:02 --> mysqli_sql_exception: Unknown column '_view' in 'field list' in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 09:16:02 --> Unknown column '_view' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profiledashboard` SET `_view` = :_view:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 09:20:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 09:21:01 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+DEBUG - 2023-11-10 09:21:03 --> Constructed Column Name: Dashboard_view
+ERROR - 2023-11-10 09:21:03 --> mysqli_sql_exception: Unknown column 'Dashboard_view' in 'field list' in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 09:21:03 --> Unknown column 'Dashboard_view' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profiledashboard` SET `Dashboard_view` = :Dashboard_view:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-11-10 09:21:40 --> Constructed Column Name: Dashboard_view
+ERROR - 2023-11-10 09:21:40 --> mysqli_sql_exception: Unknown column 'Dashboard_view' in 'field list' in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 09:21:40 --> Unknown column 'Dashboard_view' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profiledashboard` SET `Dashboard_view` = :Dashboard_view:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-11-10 09:21:41 --> Constructed Column Name: Dashboard_view
+ERROR - 2023-11-10 09:21:41 --> mysqli_sql_exception: Unknown column 'Dashboard_view' in 'field list' in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 09:21:41 --> Unknown column 'Dashboard_view' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profiledashboard` SET `Dashboard_view` = :Dashboard_view:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 09:21:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 09:21:48 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+DEBUG - 2023-11-10 09:21:50 --> Constructed Column Name: dashboard_view
+ERROR - 2023-11-10 09:21:50 --> mysqli_sql_exception: Unknown column 'dashboard_view' in 'field list' in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 09:21:50 --> Unknown column 'dashboard_view' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profiledashboard` SET `dashboard_view` = :dashboard_view:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 09:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 09:22:45 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+DEBUG - 2023-11-10 09:22:46 --> Constructed Column Name: view_dashboard
+DEBUG - 2023-11-10 09:22:46 --> Generated SQL Query: UPDATE `profiledashboard` SET `view_dashboard` = '0'
+WHERE `profile_id` = '2'
+DEBUG - 2023-11-10 09:22:52 --> Constructed Column Name: add_dashboard
+DEBUG - 2023-11-10 09:22:52 --> Generated SQL Query: UPDATE `profiledashboard` SET `add_dashboard` = '0'
+WHERE `profile_id` = '2'
+DEBUG - 2023-11-10 09:23:42 --> Constructed Column Name: view_vendor
+DEBUG - 2023-11-10 09:23:42 --> Generated SQL Query: UPDATE `profilevendor` SET `view_vendor` = '0'
+WHERE `profile_id` = '2'
+INFO - 2023-11-10 09:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 09:23:52 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+INFO - 2023-11-10 09:24:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 09:24:27 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+ERROR - 2023-11-10 09:24:27 --> mysqli_sql_exception: Unknown column 'delete_dashboard' in 'field list' in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Models\ProfileModel.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(38): App\Models\ProfileModel->getDashboardPermissionsByProfile('2')
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2')
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#8 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-10 09:24:27 --> Unknown column 'delete_dashboard' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profiledashboard_id`, `add_dashboard`, `view_dashboard`, `edit_dashboard`, `delete_dashboard`
+FROM `profiledashboard`
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Models\ProfileModel.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ProfilePermission.php(38): App\Models\ProfileModel->getDashboardPermissionsByProfile('2')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-11-10 09:24:30 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+ERROR - 2023-11-10 09:24:30 --> mysqli_sql_exception: Unknown column 'delete_dashboard' in 'field list' in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Models\ProfileModel.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(38): App\Models\ProfileModel->getDashboardPermissionsByProfile('2')
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2')
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#8 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-10 09:24:30 --> Unknown column 'delete_dashboard' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profiledashboard_id`, `add_dashboard`, `view_dashboard`, `edit_dashboard`, `delete_dashboard`
+FROM `profiledashboard`
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Models\ProfileModel.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ProfilePermission.php(38): App\Models\ProfileModel->getDashboardPermissionsByProfile('2')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->getPermissionsByProfile('2')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-10 09:27:20 --> syntax error, unexpected token "return"
+in APPPATH\Models\ProfileModel.php on line 27.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\CI4\\app\\Models\\ProfileModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ProfileModel')
+ 3 APPPATH\Controllers\ProfilePermission.php(23): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ProfileModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 09:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 09:28:22 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+DEBUG - 2023-11-10 09:28:36 --> Constructed Column Name: delete_dashboard
+DEBUG - 2023-11-10 09:28:36 --> Generated SQL Query: UPDATE `profiledashboard` SET `delete_dashboard` = '0'
+WHERE `profile_id` = '2'
+DEBUG - 2023-11-10 09:28:38 --> Constructed Column Name: delete_lot no
+ERROR - 2023-11-10 09:28:38 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`no` = '0'
+WHERE `profile_id` = '2'' at line 1 in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 09:28:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`no` = '0'
+WHERE `profile_id` = '2'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profilelot` `no` SET `delete_lot` `no` = :delete_lot no:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-11-10 09:28:39 --> Constructed Column Name: edit_lot no
+ERROR - 2023-11-10 09:28:39 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`no` = '0'
+WHERE `profile_id` = '2'' at line 1 in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 09:28:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`no` = '0'
+WHERE `profile_id` = '2'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profilelot` `no` SET `edit_lot` `no` = :edit_lot no:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-11-10 09:28:42 --> Constructed Column Name: delete_lot no
+ERROR - 2023-11-10 09:28:42 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`no` = '1'
+WHERE `profile_id` = '2'' at line 1 in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 09:28:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`no` = '1'
+WHERE `profile_id` = '2'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profilelot` `no` SET `delete_lot` `no` = :delete_lot no:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-11-10 09:29:55 --> Constructed Column Name: edit_bond transaction
+ERROR - 2023-11-10 09:29:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`transaction` = '0'
+WHERE `profile_id` = '2'' at line 1 in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 09:29:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`transaction` = '0'
+WHERE `profile_id` = '2'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profilebond` `transaction` SET `edit_bond` `transaction` = :edit_bond transaction:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-11-10 09:30:00 --> Constructed Column Name: add_bond transaction
+ERROR - 2023-11-10 09:30:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`transaction` = '0'
+WHERE `profile_id` = '2'' at line 1 in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 09:30:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`transaction` = '0'
+WHERE `profile_id` = '2'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profilebond` `transaction` SET `add_bond` `transaction` = :add_bond transaction:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-11-10 09:30:18 --> Constructed Column Name: view_report
+DEBUG - 2023-11-10 09:30:18 --> Generated SQL Query: UPDATE `profilereport` SET `view_report` = '0'
+WHERE `profile_id` = '2'
+DEBUG - 2023-11-10 09:30:19 --> Constructed Column Name: add_report
+DEBUG - 2023-11-10 09:30:19 --> Generated SQL Query: UPDATE `profilereport` SET `add_report` = '0'
+WHERE `profile_id` = '2'
+DEBUG - 2023-11-10 09:30:20 --> Constructed Column Name: add_setting
+DEBUG - 2023-11-10 09:30:20 --> Generated SQL Query: UPDATE `profilesetting` SET `add_setting` = '0'
+WHERE `profile_id` = '2'
+DEBUG - 2023-11-10 09:30:21 --> Constructed Column Name: delete_setting
+DEBUG - 2023-11-10 09:30:21 --> Generated SQL Query: UPDATE `profilesetting` SET `delete_setting` = '0'
+WHERE `profile_id` = '2'
+INFO - 2023-11-10 09:32:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 09:32:57 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+INFO - 2023-11-10 09:34:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 09:34:53 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+DEBUG - 2023-11-10 09:34:54 --> Constructed Column Name: delete_lot no
+ERROR - 2023-11-10 09:34:54 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`no` = '0'
+WHERE `profile_id` = '2'' at line 1 in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 09:34:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`no` = '0'
+WHERE `profile_id` = '2'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profilelot` `no` SET `delete_lot` `no` = :delete_lot no:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 09:38:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 09:38:47 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+DEBUG - 2023-11-10 09:38:48 --> Constructed Column Name: view_lot no
+ERROR - 2023-11-10 09:38:48 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`no` = '0'
+WHERE `profile_id` = '2'' at line 1 in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 09:38:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`no` = '0'
+WHERE `profile_id` = '2'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profilelot` `no` SET `view_lot` `no` = :view_lot no:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 09:41:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 09:41:57 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+DEBUG - 2023-11-10 09:41:58 --> Constructed Column Name: edit_lot no
+ERROR - 2023-11-10 09:41:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`no` = '0'
+WHERE `profile_id` = '2'' at line 1 in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 09:41:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`no` = '0'
+WHERE `profile_id` = '2'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profilelotno` SET `edit_lot` `no` = :edit_lot no:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+DEBUG - 2023-11-10 09:42:14 --> Constructed Column Name: edit_bond transaction
+ERROR - 2023-11-10 09:42:14 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`transaction` = '0'
+WHERE `profile_id` = '2'' at line 1 in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 09:42:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`transaction` = '0'
+WHERE `profile_id` = '2'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profilebondtransaction` SET `edit_bond` `transaction` = :edit_bond transaction:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-10 09:42:51 --> syntax error, unexpected token "/"
+in APPPATH\Controllers\ProfilePermission.php on line 92.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\CI4\\app\\Controllers\\ProfilePermission.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ProfilePermission')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ProfilePermission')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\ProfilePermission', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 09:44:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 09:44:06 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+DEBUG - 2023-11-10 09:44:07 --> Constructed Column Name: delete_lotno
+DEBUG - 2023-11-10 09:44:07 --> Generated SQL Query: UPDATE `profilelotno` SET `delete_lotno` = '0'
+WHERE `profile_id` = '2'
+DEBUG - 2023-11-10 09:44:10 --> Constructed Column Name: edit_lotno
+DEBUG - 2023-11-10 09:44:10 --> Generated SQL Query: UPDATE `profilelotno` SET `edit_lotno` = '0'
+WHERE `profile_id` = '2'
+DEBUG - 2023-11-10 09:44:12 --> Constructed Column Name: view_lotno
+DEBUG - 2023-11-10 09:44:13 --> Generated SQL Query: UPDATE `profilelotno` SET `view_lotno` = '0'
+WHERE `profile_id` = '2'
+DEBUG - 2023-11-10 09:44:13 --> Constructed Column Name: add_lotno
+DEBUG - 2023-11-10 09:44:13 --> Generated SQL Query: UPDATE `profilelotno` SET `add_lotno` = '0'
+WHERE `profile_id` = '2'
+INFO - 2023-11-10 09:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 09:50:24 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+DEBUG - 2023-11-10 09:50:25 --> Constructed Column Name: edit_bondtransaction
+ERROR - 2023-11-10 09:50:25 --> mysqli_sql_exception: Unknown column 'edit_bondtransaction' in 'field list' in C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `profile...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `profile...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `profile...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profile...', Array, false)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 09:50:25 --> Unknown column 'edit_bondtransaction' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `profilebondtransaction` SET `edit_bondtransaction` = :edit_bondtransaction:
+WHERE `profile_id` = :profile_id:', [...], false)
+ 2 APPPATH\Controllers\ProfilePermission.php(104): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfilePermission->updateStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilePermission))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 09:51:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 09:51:19 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+DEBUG - 2023-11-10 09:51:20 --> Constructed Column Name: edit_transaction
+DEBUG - 2023-11-10 09:51:21 --> Generated SQL Query: UPDATE `profilebondtransaction` SET `edit_transaction` = '0'
+WHERE `profile_id` = '2'
+DEBUG - 2023-11-10 09:51:22 --> Constructed Column Name: add_transaction
+DEBUG - 2023-11-10 09:51:22 --> Generated SQL Query: UPDATE `profilebondtransaction` SET `add_transaction` = '0'
+WHERE `profile_id` = '2'
+INFO - 2023-11-10 09:51:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-11-10 10:01:07 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '2'
+DEBUG - 2023-11-10 10:01:25 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '1'
+DEBUG - 2023-11-10 10:01:28 --> SQL Query: SELECT `person_name`
+FROM `user`
+WHERE `profile_id` = '3'
+DEBUG - 2023-11-10 10:01:29 --> Constructed Column Name: delete_setting
+DEBUG - 2023-11-10 10:01:29 --> Generated SQL Query: UPDATE `profilesetting` SET `delete_setting` = '0'
+WHERE `profile_id` = '3'
+DEBUG - 2023-11-10 10:01:29 --> Constructed Column Name: edit_setting
+DEBUG - 2023-11-10 10:01:29 --> Generated SQL Query: UPDATE `profilesetting` SET `edit_setting` = '0'
+WHERE `profile_id` = '3'
+DEBUG - 2023-11-10 10:01:30 --> Constructed Column Name: edit_report
+DEBUG - 2023-11-10 10:01:30 --> Generated SQL Query: UPDATE `profilereport` SET `edit_report` = '0'
+WHERE `profile_id` = '3'
+DEBUG - 2023-11-10 10:01:31 --> Constructed Column Name: delete_report
+DEBUG - 2023-11-10 10:01:31 --> Generated SQL Query: UPDATE `profilereport` SET `delete_report` = '0'
+WHERE `profile_id` = '3'
+DEBUG - 2023-11-10 10:01:31 --> Constructed Column Name: edit_transaction
+DEBUG - 2023-11-10 10:01:31 --> Generated SQL Query: UPDATE `profilebondtransaction` SET `edit_transaction` = '0'
+WHERE `profile_id` = '3'
+DEBUG - 2023-11-10 10:01:32 --> Constructed Column Name: view_transaction
+DEBUG - 2023-11-10 10:01:32 --> Generated SQL Query: UPDATE `profilebondtransaction` SET `view_transaction` = '0'
+WHERE `profile_id` = '3'

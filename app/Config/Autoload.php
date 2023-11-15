@@ -49,6 +49,9 @@ class Autoload extends AutoloadConfig
         'Config'      => APPPATH . 'Config',
     ];
 
+
+
+    
     /**
      * -------------------------------------------------------------------
      * Class Map
@@ -85,6 +88,7 @@ class Autoload extends AutoloadConfig
      * @phpstan-var list<string>
      */
     public $files = [];
+    public $libraries = ['session'];
 
     /**
      * -------------------------------------------------------------------
